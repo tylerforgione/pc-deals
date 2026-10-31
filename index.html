@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PC Deals · Montréal</title>
+<meta name="description" content="Daily tracker of good-value PC hardware deals in Canada and Montréal.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖥️</text></svg>">
+<style>
+:root {
+  --bg: #f6f5f1; --panel: #ffffff; --ink: #1c1d1f; --muted: #6b6e75; --line: #e3e1da;
+  --accent: #2f6fde; --good: #1f8a4c; --good-bg: #e3f4ea; --warn: #b2640a; --warn-bg: #fbeedc;
+  --new: #6b3fd4; --new-bg: #eee8fc; --bad: #b93a32; --bad-bg: #fbe5e3; --chip: #efeee9;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #131416; --panel: #1b1d20; --ink: #e9e8e4; --muted: #9a9ca3; --line: #2c2f33;
+    --accent: #6b9cf0; --good: #5fcf8c; --good-bg: #183323; --warn: #f0a854; --warn-bg: #3a2a14;
+    --new: #b19af4; --new-bg: #2a2340; --bad: #f0857c; --bad-bg: #3a1d1b; --chip: #25282c;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 24px 16px 64px; }
+header h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--muted); }
+.stats { display: flex; gap: 10px; flex-wrap: wrap; margin: 18px 0; }
+.stat { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; min-width: 120px; }
+.stat b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-size: 13px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; background: var(--panel);
+  border: 1px solid var(--line); border-radius: 10px; padding: 10px; position: sticky; top: 0; z-index: 5; }
+.controls input[type=search], .controls select, .controls input[type=number] {
+  font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+  border-radius: 8px; padding: 7px 10px; min-width: 0; }
+.controls input[type=search] { flex: 1 1 220px; }
+.controls input[type=number] { width: 110px; }
+.controls label { display: inline-flex; gap: 6px; align-items: center; color: var(--muted); font-size: 14px; white-space: nowrap; }
+.cats { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0; }
+.cats button { font: inherit; font-size: 13px; border: 1px solid var(--line); background: var(--chip); color: var(--ink);
+  border-radius: 999px; padding: 4px 11px; cursor: pointer; }
+.cats button.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.cats button small { color: inherit; opacity: .6; margin-left: 3px; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; background: var(--panel);
+  border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); cursor: pointer;
+  user-select: none; white-space: nowrap; background: var(--panel); }
+th.sorted::after { content: " ↓"; } th.sorted.asc::after { content: " ↑"; }
+tr:last-child td { border-bottom: 0; }
+tr.gone td { opacity: .5; }
+.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.title { font-weight: 600; }
+.specs { color: var(--muted); font-size: 13px; }
+.why { font-size: 13px; margin-top: 4px; }
+.cav { font-size: 13px; color: var(--warn); margin-top: 2px; }
+.badge { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .03em; border-radius: 6px; padding: 2px 7px; white-space: nowrap; }
+.b-NEW { background: var(--new-bg); color: var(--new); }
+.b-PRICEDROP { background: var(--good-bg); color: var(--good); }
+.b-PRICEUP, .b-NOTSEEN { background: var(--warn-bg); color: var(--warn); }
+.b-SEEN { background: var(--chip); color: var(--muted); }
+.b-GONE { background: var(--bad-bg); color: var(--bad); }
+.fit { display: inline-block; margin-top: 4px; font-size: 12px; color: var(--good); }
+.score { font-weight: 700; font-size: 16px; }
+.bar { height: 4px; background: var(--chip); border-radius: 2px; margin-top: 4px; width: 56px; margin-left: auto; }
+.bar i { display: block; height: 100%; background: var(--good); border-radius: 2px; }
+.price { font-weight: 700; font-size: 16px; }
+.was { color: var(--muted); text-decoration: line-through; font-size: 13px; }
+.off { color: var(--good); font-size: 13px; font-weight: 600; }
+.src { font-size: 13px; color: var(--muted); }
+.empty { text-align: center; padding: 48px 16px; color: var(--muted); }
+footer { margin-top: 24px; color: var(--muted); font-size: 13px; }
+@media (max-width: 760px) {
+  table, thead, tbody, tr, td { display: block; }
+  thead { display: none; }
+  table { background: none; border: 0; }
+  tr { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 10px; padding: 6px 0; }
+  td { border: 0; padding: 4px 14px; }
+  td.num { text-align: left; }
+  td[data-l]::before { content: attr(data-l) " "; color: var(--muted); font-size: 12px; text-transform: uppercase; }
+  .bar { margin-left: 0; }
+  .controls { position: static; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>PC Deals · Montréal</h1>
+    <p id="updated">Loading…</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search title, CPU, specs, seller…">
+    <select id="status">
+      <option value="active">Active listings</option>
+      <option value="new">New today</option>
+      <option value="drops">Price drops</option>
+      <option value="all">Everything (incl. gone)</option>
+    </select>
+    <label>Max $ <input type="number" id="max" min="0" step="10" placeholder="any"></label>
+    <label><input type="checkbox" id="fits"> Fits my gear</label>
+  </div>
+
+  <div class="cats" id="cats"></div>
+
+  <table>
+    <thead><tr>
+      <th data-k="status">Status</th>
+      <th data-k="rank_score" class="sorted">Score</th>
+      <th data-k="category">Category</th>
+      <th data-k="title">Item</th>
+      <th data-k="total_cad">Price</th>
+      <th data-k="source">Where</th>
+      <th data-k="first_seen">First seen</th>
+    </tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="empty" id="empty" hidden>No listings match these filters.</div>
+
+  <footer>
+    Updated daily by a scheduled search. Score blends value-for-money and discount versus typical Canadian used/refurb prices
+    (mini PCs use a homelab points formula, $250 soft cap). Listings come from public search results and may be stale;
+    always confirm with the seller. <a href="data/deals.csv">Download CSV</a> ·
+    <a href="https://github.com/tylerforgione/pc-deals/commits/main/data/deals.json">History</a>
+  </footer>
+</div>
+
+<script>
+const S = { rows: [], cat: "All", key: "rank_score", asc: false };
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const money = (n) => n == null || n === "" ? "" : "$" + Number(n).toLocaleString("en-CA", { maximumFractionDigits: 0 });
+const pref = (k, v) => { try { v === undefined ? (v = localStorage.getItem("pcd_" + k)) : localStorage.setItem("pcd_" + k, v); } catch (e) {} return v; };
+
+fetch("data/deals.json?" + Date.now()).then((r) => r.json()).then((d) => {
+  S.rows = d.listings || [];
+  const when = d.updated ? new Date(d.updated) : null;
+  $("updated").textContent = when
+    ? `Last updated ${when.toLocaleString("en-CA", { dateStyle: "medium", timeStyle: "short" })} · ${S.rows.length} listings tracked`
+    : "No data yet: the first scheduled run will fill this in.";
+  const active = S.rows.filter((r) => r.status !== "GONE");
+  const stat = (n, l) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`;
+  $("stats").innerHTML =
+    stat(active.length, "active") +
+    stat(active.filter((r) => r.status === "NEW").length, "new today") +
+    stat(active.filter((r) => r.status === "PRICE DROP").length, "price drops") +
+    stat(active.filter((r) => r.category === "Mini PC").length, "mini PCs") +
+    stat(active.filter((r) => r.fits_my_gear).length, "fit my gear");
+  for (const k of ["status", "max", "fits"]) {
+    const v = pref(k); if (v == null) continue;
+    if (k === "fits") $(k).checked = v === "1"; else $(k).value = v;
+  }
+  render();
+}).catch(() => { $("updated").textContent = "Couldn't load data/deals.json."; });
+
+function filtered() {
+  const q = $("q").value.trim().toLowerCase();
+  const st = $("status").value, max = parseFloat($("max").value), fits = $("fits").checked;
+  return S.rows.filter((r) => {
+    if (st === "active" && r.status === "GONE") return false;
+    if (st === "new" && r.status !== "NEW") return false;
+    if (st === "drops" && r.status !== "PRICE DROP") return false;
+    if (S.cat !== "All" && r.category !== S.cat) return false;
+    if (fits && !r.fits_my_gear) return false;
+    if (!isNaN(max) && Number(r.total_cad) > max) return false;
+    if (q) {
+      const hay = [r.title, r.specs, r.cpu, r.source, r.location, r.why, r.fit_note, r.category].join(" ").toLowerCase();
+      if (!q.split(/\s+/).every((w) => hay.includes(w))) return false;
+    }
+    return true;
+  });
+}
+
+function render() {
+  // category chips with counts (respecting other filters except category)
+  const saveCat = S.cat; S.cat = "All";
+  const base = filtered(); S.cat = saveCat;
+  const counts = {};
+  base.forEach((r) => (counts[r.category] = (counts[r.category] || 0) + 1));
+  const cats = ["All", ...Object.keys(counts).sort((a, b) => counts[b] - counts[a])];
+  if (!cats.includes(S.cat)) S.cat = "All";
+  $("cats").innerHTML = cats.map((c) =>
+    `<button class="${c === S.cat ? "on" : ""}" data-c="${esc(c)}">${esc(c)}<small>${c === "All" ? base.length : counts[c]}</small></button>`).join("");
+
+  const rows = filtered().sort((a, b) => {
+    let x = a[S.key], y = b[S.key];
+    if (typeof x === "string" || typeof y === "string") { x = String(x ?? ""); y = String(y ?? ""); return S.asc ? x.localeCompare(y) : y.localeCompare(x); }
+    x = x ?? -Infinity; y = y ?? -Infinity;
+    return S.asc ? x - y : y - x;
+  });
+  $("empty").hidden = rows.length > 0;
+  $("rows").innerHTML = rows.map((r) => {
+    const hist = r.price_history || [];
+    const first = hist.length ? hist[0].total_cad : null;
+    const was = first != null && first > r.total_cad ? `<div class="was">${money(first)}</div>` : "";
+    const typ = r.typical_cad ? `<div class="src">typical ${money(r.typical_cad)}</div>` : "";
+    const off = r.discount_pct > 0 ? `<div class="off">${r.discount_pct}% below</div>` : "";
+    const unit = r.unit_price ? `<div class="src">${esc(r.unit_price)}</div>` : "";
+    const histTip = hist.map((h) => `${h.date}: ${money(h.total_cad)}`).join("\n");
+    const sc = r.rank_score ?? 0;
+    const vs = r.value_score != null ? `<div class="src">value ${r.value_score}</div>` : "";
+    return `<tr class="${r.status === "GONE" ? "gone" : ""}">
+      <td><span class="badge b-${esc((r.status || "").replace(/\s/g, ""))}">${esc(r.status)}</span></td>
+      <td class="num" data-l="Score"><span class="score">${Math.round(sc)}</span><div class="bar"><i style="width:${Math.min(sc, 100)}%"></i></div>${vs}</td>
+      <td data-l="">${esc(r.category)}</td>
+      <td>
+        <div class="title"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></div>
+        ${r.specs ? `<div class="specs">${esc(r.specs)}</div>` : ""}
+        ${r.why ? `<div class="why">${esc(r.why)}</div>` : ""}
+        ${r.caveats ? `<div class="cav">⚠ ${esc(r.caveats)}</div>` : ""}
+        ${r.fits_my_gear ? `<div class="fit">✓ Fits my gear${r.fit_note ? ": " + esc(r.fit_note) : ""}</div>` : ""}
+      </td>
+      <td class="num" data-l="Price" title="${esc(histTip)}"><div class="price">${money(r.total_cad)}</div>${was}${off}${typ}${unit}</td>
+      <td data-l="Where"><div>${esc(r.source)}</div><div class="src">${esc(r.location)}</div><div class="src">${esc(r.condition)}</div></td>
+      <td data-l="First seen" class="src">${esc(r.first_seen)}${r.last_seen && r.last_seen !== r.first_seen ? `<br>last ${esc(r.last_seen)}` : ""}</td>
+    </tr>`;
+  }).join("");
+  document.querySelectorAll("th").forEach((th) => {
+    th.classList.toggle("sorted", th.dataset.k === S.key);
+    th.classList.toggle("asc", th.dataset.k === S.key && S.asc);
+  });
+}
+
+$("cats").addEventListener("click", (e) => { const b = e.target.closest("button"); if (b) { S.cat = b.dataset.c; render(); } });
+document.querySelector("thead").addEventListener("click", (e) => {
+  const th = e.target.closest("th"); if (!th) return;
+  if (S.key === th.dataset.k) S.asc = !S.asc; else { S.key = th.dataset.k; S.asc = ["title", "category", "source"].includes(S.key); }
+  render();
+});
+$("q").addEventListener("input", render);
+for (const id of ["status", "max", "fits"]) $(id).addEventListener("input", () => {
+  pref(id, id === "fits" ? ($(id).checked ? "1" : "0") : $(id).value); render();
+});
+</script>
+</body>
+</html>
