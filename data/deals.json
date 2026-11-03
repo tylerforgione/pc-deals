@@ -36,7 +36,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -78,7 +78,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -120,7 +120,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -200,7 +200,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -237,7 +237,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -272,7 +272,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -313,7 +313,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -354,7 +354,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -396,7 +396,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -437,7 +437,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -478,7 +478,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -511,7 +511,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -552,7 +552,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -595,7 +595,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -636,7 +636,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -677,7 +677,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -723,7 +723,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -764,7 +764,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -805,7 +805,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -846,7 +846,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -887,7 +887,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -928,7 +928,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1013,7 +1013,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1054,7 +1054,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1096,7 +1096,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1137,7 +1137,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1178,7 +1178,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1219,7 +1219,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1260,7 +1260,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1301,7 +1301,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1338,7 +1338,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1379,7 +1379,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1421,7 +1421,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1463,7 +1463,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1543,7 +1543,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1583,7 +1583,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -1617,7 +1617,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -1658,7 +1658,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1699,7 +1699,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1740,7 +1740,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1781,7 +1781,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -1822,7 +1822,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1868,7 +1868,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1910,7 +1910,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1951,7 +1951,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2026,7 +2026,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2068,7 +2068,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2109,7 +2109,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -2152,7 +2152,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2194,7 +2194,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2234,7 +2234,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -2317,7 +2317,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2391,7 +2391,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2435,7 +2435,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2476,7 +2476,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2513,7 +2513,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2588,7 +2588,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -2630,7 +2630,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2672,7 +2672,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2709,7 +2709,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2743,7 +2743,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -2819,7 +2819,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2860,7 +2860,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2896,7 +2896,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2937,7 +2937,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2972,7 +2972,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -3009,7 +3009,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -3050,7 +3050,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3096,7 +3096,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3176,7 +3176,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -3258,7 +3258,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3299,7 +3299,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3345,7 +3345,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3426,7 +3426,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3469,7 +3469,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -3503,7 +3503,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -3544,7 +3544,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3578,7 +3578,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -3661,7 +3661,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -3702,7 +3702,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3748,7 +3748,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3790,7 +3790,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -3824,7 +3824,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -3898,7 +3898,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -3980,7 +3980,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -4142,7 +4142,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -4185,7 +4185,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -4221,7 +4221,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -4290,7 +4290,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -4324,7 +4324,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -4357,7 +4357,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -4398,7 +4398,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -4440,7 +4440,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 2,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -4474,7 +4474,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -4597,7 +4597,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 3,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -4638,7 +4638,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 1,
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",

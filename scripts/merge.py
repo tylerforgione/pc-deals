@@ -30,6 +30,9 @@ finds.json is a JSON list. Each item (fields marked * are required):
   caveats         anything to watch out for
   available       false if a previously-listed item was checked and is sold/removed
 
+Pass --no-age when the re-check of tracked listings failed (blocked pages); the script also
+detects this automatically when fewer than 10% of tracked listings were re-checked.
+
 Statuses: NEW, SEEN, PRICE DROP, PRICE UP, NOT SEEN (missing from today's sweep),
 GONE (confirmed sold/removed, or missing for GONE_AFTER_DAYS days).
 """
@@ -143,12 +146,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("finds")
     ap.add_argument("--date", default=dt.date.today().isoformat())
+    ap.add_argument("--no-age", action="store_true",
+                    help="re-checks failed today: don't count unseen listings toward GONE")
     args = ap.parse_args()
     today = args.date
 
     finds = json.loads(Path(args.finds).read_text())
     db = json.loads(DATA.read_text()) if DATA.exists() else {"listings": []}
     by_id = {l["id"]: l for l in db["listings"]}
+    tracked_before = {lid for lid, l in by_id.items() if l.get("status") != "GONE"}
     seen_today = set()
     added = rejected = 0
 
@@ -193,6 +199,16 @@ def main():
             by_id[lid] = f
             added += 1
 
+    # Safety: if almost nothing that was already tracked got re-checked today, the
+    # re-check step most likely failed (blocked fetches), not the listings. Don't age them.
+    rechecked = len(tracked_before & seen_today) + sum(
+        1 for f in finds if f.get("available") is False and norm_id(f.get("url", "")) in tracked_before)
+    no_age = args.no_age
+    if not no_age and len(tracked_before) >= 10 and rechecked < 0.1 * len(tracked_before):
+        no_age = True
+        print(f"WARNING: only {rechecked}/{len(tracked_before)} tracked listings were re-checked; "
+              "assuming the re-check failed and NOT aging unseen listings today.", file=sys.stderr)
+
     # Listings not seen today
     for lid, l in list(by_id.items()):
         if lid in seen_today or l.get("last_seen") == today and l["status"] != "GONE":
@@ -201,6 +217,9 @@ def main():
             since = dt.date.fromisoformat(l.get("gone_since", today))
             if (dt.date.fromisoformat(today) - since).days > DROP_GONE_AFTER_DAYS:
                 del by_id[lid]
+            continue
+        if no_age:
+            l["status"] = "NOT SEEN"  # not confirmed today, but don't count it toward GONE
             continue
         l["missed_days"] = l.get("missed_days", 0) + 1
         if l["missed_days"] >= GONE_AFTER_DAYS:
