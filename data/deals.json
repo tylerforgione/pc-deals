@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03T12:48+00:00",
- "date": "2026-11-03",
+ "updated": "2026-11-04T12:31+00:00",
+ "date": "2026-11-04",
  "listings": [
   {
    "shipping_cad": 0,
@@ -15,7 +15,7 @@
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "DDR4-2666 SO-DIMM, matches your 16GB SO-DIMM; 8GB stick fills a mini PC's second slot (16+8=24GB)",
-   "caveats": "Form factor inferred from part-number code (SA1/SC0 = SODIMM); confirm with seller; brand not stated",
+   "caveats": "Form factor inferred from part-number code (SA1/SC0 = SODIMM); confirm with seller; brand not stated Re-check 2026-11-04: still listed on a Kijiji search results page at $20; ad page itself not fetched.",
    "url": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/8gb-ddr4-and-4gb-ddr4/1742533489",
    "title": "8GB + 4GB DDR4-2666 SO-DIMM (PC4-2666V-SA1 / -SC0)",
    "category": "Memory",
@@ -33,10 +33,10 @@
    "unit_price": "$1.67/GB",
    "rank_score": 100,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/8gb-ddr4-and-4gb-ddr4/1742533489",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -78,7 +78,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -120,7 +120,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -156,10 +156,10 @@
    "value_score": 82.4,
    "rank_score": 95.9,
    "id": "https://www.ebay.ca/itm/366687053696",
-   "status": "NEW",
+   "status": "NOT SEEN",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-03",
@@ -200,7 +200,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "missed_days": 3,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -237,7 +237,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -262,16 +262,16 @@
    "fits_my_gear": true,
    "fit_note": "Same LGA1151v2 platform as your 9500F; small upgrade on a Z370/Z390 board, uses your DDR4-2666 + GTX 1050",
    "why": "About half the typical used price",
-   "caveats": "No iGPU; needs a 300-series board; search-page data only",
+   "caveats": "No iGPU; needs a 300-series board; search-page data only Re-check 2026-11-04: still listed on a Kijiji search results page at $40; ad page itself not fetched.",
    "available": true,
    "deal_score": 1.88,
    "discount_pct": 47,
    "value_score": null,
    "rank_score": 80.2,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/cpu-i5-9600kf/1744876781",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -298,22 +298,22 @@
    "storage_gb": 256,
    "capacity_gb": null,
    "sodimm_slots": 2,
-   "m2_and_sata": "M.2 2280 NVMe + 2.5\" SATA bay",
+   "m2_and_sata": true,
    "adapter": true,
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "Add your 16GB DDR4-2666 SO-DIMM (24GB if the 8GB is one stick; replace a 4GB if 2x4) and a 2.5\" SATA SSD in the bay.",
    "why": "Cheapest 8th-gen 6-core mini in Montréal with adapter; seller says price negotiable.",
-   "caveats": "RAM stick layout and SSD type (SATA/NVMe) not stated. Seller reposts listings often; confirm it's still available. Comes with a lot of preinstalled software; wipe it for Proxmox.",
+   "caveats": "RAM stick layout and SSD type (SATA/NVMe) not stated. Seller reposts listings often; confirm it's still available. Comes with a lot of preinstalled software; wipe it for Proxmox. Re-check 2026-11-04: still listed on a Kijiji search results page at $160; ad page itself not fetched.",
    "deal_score": 1.56,
    "discount_pct": 36,
    "value_score": 59.5,
    "rank_score": 77.9,
    "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/ordi-hp-prodesk-600g4-core-i5-8500t-8go-ssd-256go-w11-pro/1745516477",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -339,21 +339,21 @@
    "storage_gb": 120,
    "capacity_gb": null,
    "sodimm_slots": 2,
-   "m2_and_sata": "M.2 2280 NVMe + 2.5\" SATA bay",
+   "m2_and_sata": true,
    "adapter": null,
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "Add your 16GB SO-DIMM for 24GB, and use one of your 2.5\" SSDs.",
    "why": "Cheapest Ryzen 2000 Pro mini found, a good small Proxmox node at about $129; Best Offer enabled",
-   "caveats": "Only 4 threads. Shipping is estimated (page shows 'varies'). Adapter not stated. No returns. 2 left.",
+   "caveats": "Only 4 threads. Shipping is estimated (page shows 'varies'). Adapter not stated. No returns. 2 left. Re-checked 2026-11-04 on the eBay.ca browse page: C$99 or Best Offer + C$30 shipping, still listed.",
    "deal_score": 1.32,
    "discount_pct": 24,
    "value_score": 61.9,
    "rank_score": 77.2,
    "id": "https://www.ebay.ca/itm/389010042507",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -381,22 +381,22 @@
    "storage_gb": 1128,
    "capacity_gb": null,
    "sodimm_slots": 2,
-   "m2_and_sata": "M.2 NVMe (128GB) + 2.5\" SATA bay (1TB HDD)",
+   "m2_and_sata": true,
    "adapter": true,
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "Swap the 1TB HDD for one of your 2.5\" SSDs and add the 16GB SO-DIMM.",
    "why": "Same seller as the $160 unit, plus a 1TB HDD and NVMe boot drive. Already runs Linux.",
-   "caveats": "$40 more than the $160 unit just for the 128GB NVMe + HDD. Only worth it if you want both drives. RAM layout not stated.",
+   "caveats": "$40 more than the $160 unit just for the 128GB NVMe + HDD. Only worth it if you want both drives. RAM layout not stated. Re-check 2026-11-04: still listed on a Kijiji search results page at $200; ad page itself not fetched.",
    "deal_score": 1.25,
    "discount_pct": 20,
    "value_score": 62.5,
    "rank_score": 76.9,
    "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/ordi-hp-prodesk-600g4-core-i5-8500t-8go-ssd-128go-hd-1to-ubuntu/1745478712",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -437,7 +437,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -463,22 +463,22 @@
    "storage_gb": 1000,
    "capacity_gb": null,
    "sodimm_slots": 2,
-   "m2_and_sata": "Free M.2 NVMe slot + 2.5\" SATA (1TB in use) + another SATA position per seller",
+   "m2_and_sata": true,
    "adapter": true,
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "Swap one 8GB stick for your 16GB SO-DIMM to get 24GB. NVMe slot is free; your 2.5\" SATA SSDs fit the extra tray.",
    "why": "Dual NIC (good for an OPNsense VM or a Proxmox VLAN trunk), with 16GB and a 1TB SSD included for $200",
-   "caveats": "7th gen, below the preferred 8th gen. Slot wording in the ad is unclear, so confirm M.2/SATA layout. Same seller has a no-SSD version for $150 (1743558767).",
+   "caveats": "7th gen, below the preferred 8th gen. Slot wording in the ad is unclear, so confirm M.2/SATA layout. Same seller has a no-SSD version for $150 (1743558767). Re-check 2026-11-04: still listed on a Kijiji search results page at $200; ad page itself not fetched.",
    "deal_score": 1.3,
    "discount_pct": 23,
    "value_score": 60.0,
    "rank_score": 75.2,
    "id": "https://www.kijiji.ca/v-desktop-computers/laval-rive-nord/mini-pc-ciara-astro-sn-6310-core-i5-7500t-16go-ram-ssd-1to/1743558845",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -501,16 +501,16 @@
    "specs": "48x 1G PoE+ 740W, 2x 10G SFP+, LAN Base, 1U",
    "fits_my_gear": false,
    "why": "Managed PoE+ switch with 10G uplinks for $99, about half the going rate",
-   "caveats": "Bulk-seller ad says inventory list may be out of date; loud and power-hungry",
+   "caveats": "Bulk-seller ad says inventory list may be out of date; loud and power-hungry Re-check 2026-11-04: still listed on a Kijiji search results page at $99; ad page itself not fetched.",
    "available": true,
    "deal_score": 1.82,
    "discount_pct": 45,
    "value_score": null,
    "rank_score": 72.8,
    "id": "https://www.kijiji.ca/v-computer-networking/ville-de-montreal/cisco-ws-c2960x-48fpd-l-poe-10gb-switch-2000-cisco-routers-ccna/1742547333",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -543,15 +543,15 @@
    "fits_my_gear": true,
    "fit_note": "Good Proxmox homelab backbone: 2.5G to mini PCs, 10G SFP+ uplinks to a NAS/server",
    "why": "Save $70; ~1.7x below regular price for a 2.5G+10G switch",
-   "caveats": "The search grid showed $69.99 but the product page says $79.99, so $79.99 is used here. The sale countdown reads 00:00:00 and no end date is shown. Open box is $71.99. Prices are before QC tax.",
+   "caveats": "The search grid showed $69.99 but the product page says $79.99, so $79.99 is used here. The sale countdown reads 00:00:00 and no end date is shown. Open box is $71.99. Prices are before QC tax. Re-checked 2026-11-04: still $79.99 (SAVE $70), available to ship, open box $71.99.",
    "deal_score": 1.69,
    "discount_pct": 41,
    "value_score": null,
    "rank_score": 72.6,
    "id": "https://www.canadacomputers.com/en/unmanaged-switches/283055/asus-qg-u1080-8-port-2-5g-and-2-port-10g-sfp-unmanaged-switch-qg-u1080.html",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -595,7 +595,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -616,7 +616,7 @@
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "Same socket as your 9500F; adds an iGPU (Quick Sync, headless boot) for a 300-series board build",
-   "caveats": "Cash pickup only, no shipping; you already own a 9500F so only useful for a second build or iGPU",
+   "caveats": "Cash pickup only, no shipping; you already own a 9500F so only useful for a second build or iGPU Re-check 2026-11-04: still listed on a Kijiji search results page (search card shows $30 (i5-8400 headline price); title still says i5-8500 $40); ad page itself not fetched.",
    "url": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/intel-cpu-i5-8400:-30-i5-8500:-40-8th-gen-lga1151:-30/1743623916",
    "title": "Intel Core i5-8500 $40 (also i5-8400 $30), LGA1151v2",
    "category": "CPU",
@@ -633,10 +633,10 @@
    "value_score": null,
    "rank_score": 69.8,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/intel-cpu-i5-8400:-30-i5-8500:-40-8th-gen-lga1151:-30/1743623916",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -677,7 +677,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -703,7 +703,7 @@
    "thin_client": false,
    "fits_my_gear": false,
    "fit_note": "",
-   "caveats": "MPN listed as RX580GAMINGX8G, so it may be an RX 580 (even better); confirm",
+   "caveats": "MPN listed as RX580GAMINGX8G, so it may be an RX 580 (even better); confirm Re-check 2026-11-04: still listed on a Kijiji search results page at $50; ad page itself not fetched.",
    "url": "https://www.kijiji.ca/v-other/ville-de-montreal/msi-radeon-rx-480-gaming-x-8gb-gddr5-graphics-card-twin-frozr/1742185218",
    "title": "MSI Radeon RX 480 Gaming X 8GB (Twin Frozr VI)",
    "category": "GPU",
@@ -720,10 +720,10 @@
    "value_score": null,
    "rank_score": 68.0,
    "id": "https://www.kijiji.ca/v-other/ville-de-montreal/msi-radeon-rx-480-gaming-x-8gb-gddr5-graphics-card-twin-frozr/1742185218",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -764,7 +764,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "missed_days": 3,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -805,7 +805,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "missed_days": 3,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -846,7 +846,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -877,16 +877,16 @@
    "fits_my_gear": true,
    "fit_note": "Free/swappable SO-DIMM slot for your 16GB stick; 2.5\" bay for a spare SATA SSD if the 1TB is NVMe",
    "why": "1TB SSD + internal WiFi/BT 8th-gen 1L mini for $240",
-   "caveats": "NVMe vs SATA and stick layout not stated; price somewhat negotiable",
+   "caveats": "NVMe vs SATA and stick layout not stated; price somewhat negotiable Re-check 2026-11-04: still listed on a Kijiji search results page at $240; ad page itself not fetched.",
    "available": true,
    "deal_score": 1.21,
    "discount_pct": 17,
    "value_score": 52.1,
    "rank_score": 66.9,
    "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/ordi-hp-prodesk-600g4-core-i5-8500t-8go-ssd-1to-wifi-bt-w11-pro/1745564986",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -919,15 +919,15 @@
    "fits_my_gear": false,
    "fit_note": "Uses DDR5, so your DDR4 SO-DIMM won't fit. Standalone workstation laptop.",
    "why": "Strongest find: about 60% of typical for a 13th-gen mobile workstation with 64GB/2TB/OLED",
-   "caveats": "Price US$610.40 at ~1.38 CAD/USD. Shipping to Canada isn't shown (fetch was US-based), so C$50 is an estimate; eBay International Shipping may add duties/taxes. Page last updated Aug 5 2026 with 'last one' left, so it may sell any moment. GPU model in the item specifics is generic, so confirm with the seller via eBay before buying. Warranty is Allstate, U.S. residents only. Re-check 2026-11-02: item page still active, 'Last one', US$610.40 (x1.39); shipping to Canada still not shown, C$50 estimate.",
+   "caveats": "Price US$610.40 at ~1.38 CAD/USD. Shipping to Canada isn't shown (fetch was US-based), so C$50 is an estimate; eBay International Shipping may add duties/taxes. Page last updated Aug 5 2026 with 'last one' left, so it may sell any moment. GPU model in the item specifics is generic, so confirm with the seller via eBay before buying. Warranty is Allstate, U.S. residents only. Re-check 2026-11-02: item page still active, 'Last one', US$610.40 (x1.39); shipping to Canada still not shown, C$50 estimate. Re-checked 2026-11-04: item page still live at US$610.40 Buy It Now, \"Last one\".",
    "deal_score": 1.67,
    "discount_pct": 40,
    "value_score": null,
    "rank_score": 66.8,
    "id": "https://www.ebay.com/itm/800467186135",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -969,10 +969,10 @@
    "value_score": 51.6,
    "rank_score": 66.7,
    "id": "https://www.ebay.ca/itm/188772569853",
-   "status": "NEW",
+   "status": "NOT SEEN",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-03",
@@ -993,7 +993,7 @@
    "thin_client": false,
    "fits_my_gear": false,
    "fit_note": "",
-   "caveats": "Fans/noise; 1GbE ports only (no 2.5G); older UniFi gen",
+   "caveats": "Fans/noise; 1GbE ports only (no 2.5G); older UniFi gen Re-check 2026-11-04: still listed on a Kijiji search results page at $115; ad page itself not fetched.",
    "url": "https://www.kijiji.ca/v-computer-networking/ville-de-montreal/ubiquiti-switch-us-48-non-poe/1735716471",
    "title": "Ubiquiti UniFi US-48 48-port gigabit switch (2x SFP + 2x SFP+)",
    "category": "Networking",
@@ -1010,10 +1010,10 @@
    "value_score": null,
    "rank_score": 66.0,
    "id": "https://www.kijiji.ca/v-computer-networking/ville-de-montreal/ubiquiti-switch-us-48-non-poe/1735716471",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1054,7 +1054,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1076,7 +1076,7 @@
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "Plenty for a 9500F + GTX 1050 build",
-   "caveats": "Same mass dealer; model, age, modularity, cables not stated; inspect/test",
+   "caveats": "Same mass dealer; model, age, modularity, cables not stated; inspect/test Re-check 2026-11-04: still listed on a Kijiji search results page at $50; ad page itself not fetched.",
    "url": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/seasonic-650-watt-gold-computer-power-supply-for-gamer-pc-200-p/1734391465",
    "title": "Seasonic 650W 80+ Gold ATX power supply",
    "category": "Power supply",
@@ -1093,10 +1093,10 @@
    "value_score": null,
    "rank_score": 65.0,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/seasonic-650-watt-gold-computer-power-supply-for-gamer-pc-200-p/1734391465",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1137,7 +1137,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "missed_days": 3,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1169,16 +1169,16 @@
    "fits_my_gear": true,
    "fit_note": "Low-profile and slot-powered, so it fits SFF boxes; Pascal NVENC/NVDEC for a Jellyfin/Plex LXC passthrough",
    "why": "Cheap low-profile transcoding card for a Proxmox media VM",
-   "caveats": "Only 2GB VRAM. Seller (ELESOFT CA) has 121 listings.",
+   "caveats": "Only 2GB VRAM. Seller (ELESOFT CA) has 121 listings. Re-check 2026-11-04: still listed on a Kijiji search results page at $50; ad page itself not fetched.",
    "deal_score": 1.5,
    "discount_pct": 33,
    "value_score": null,
    "rank_score": 65.0,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/nvidia-quadro-p620-pascal-2gb-gddr5-128-bit-4k-quad-mini-dp/1735482823",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1219,7 +1219,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "missed_days": 3,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1260,7 +1260,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1301,7 +1301,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1338,7 +1338,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1359,7 +1359,7 @@
    "thin_client": false,
    "fits_my_gear": false,
    "fit_note": "",
-   "caveats": "Same seller also has the RX 480 below and an RX 6700 XT",
+   "caveats": "Same seller also has the RX 480 below and an RX 6700 XT Re-check 2026-11-04: still listed on a Kijiji search results page at $75; ad page itself not fetched.",
    "url": "https://www.kijiji.ca/v-other-computer-products/ville-de-montreal/sapphire-11265-01-20g-radeon-nitro-rx-580-8gb-gddr5-dual-hdmi-d/1742185318",
    "title": "Sapphire Nitro+ Radeon RX 580 8GB (11265-01-20G)",
    "category": "GPU",
@@ -1376,10 +1376,10 @@
    "value_score": null,
    "rank_score": 64.0,
    "id": "https://www.kijiji.ca/v-other-computer-products/ville-de-montreal/sapphire-11265-01-20g-radeon-nitro-rx-580-8gb-gddr5-dual-hdmi-d/1742185318",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1400,7 +1400,7 @@
    "thin_client": false,
    "fits_my_gear": false,
    "fit_note": "",
-   "caveats": "Same mass dealer; brands/hours unknown, conflicting prices in ad; check SMART on site",
+   "caveats": "Same mass dealer; brands/hours unknown, conflicting prices in ad; check SMART on site Re-check 2026-11-04: still listed on a Kijiji search results page (search card shows $45 (3TB headline price); 4TB $50 per tracked ad text); ad page itself not fetched.",
    "url": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/3tb-enterprise-sata-drives-45-2tb-25-1tb-10-1000-hard-discs/1744041228",
    "title": "4TB SATA HDD $50 (also 3TB enterprise $45, 2TB $25-35)",
    "category": "Storage",
@@ -1418,10 +1418,10 @@
    "unit_price": "$12/TB",
    "rank_score": 64.0,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/3tb-enterprise-sata-drives-45-2tb-25-1tb-10-1000-hard-discs/1744041228",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1463,7 +1463,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "missed_days": 3,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1499,10 +1499,10 @@
    "value_score": 48.5,
    "rank_score": 63.7,
    "id": "https://www.ebay.ca/itm/188375179125",
-   "status": "NEW",
+   "status": "NOT SEEN",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-03",
@@ -1543,7 +1543,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1573,21 +1573,56 @@
    "fits_my_gear": false,
    "fit_note": "Would use your 2x8GB DDR4 in an AM4 board",
    "why": "Cheap 6C/12T host CPU with cooler",
-   "caveats": "Needs AM4 board; no iGPU",
+   "caveats": "Needs AM4 board; no iGPU Re-check 2026-11-04: still listed on a Kijiji search results page at $35; ad page itself not fetched.",
    "available": true,
    "deal_score": 1.57,
    "discount_pct": 36,
    "value_score": null,
    "rank_score": 62.8,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/cpu-ryzen-2600-ventirad/1745216319",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
      "total_cad": 35.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/samsung-990-pro-2tb-ssd-m-2-gen4-new-sealed-warranty/1745067633",
+   "title": "Samsung 990 Pro 2TB NVMe Gen4 SSD (MZ-V9P2T0B/AM), new and sealed",
+   "category": "Storage",
+   "total_cad": 500,
+   "price_cad": 500,
+   "shipping_cad": 0,
+   "typical_cad": 720,
+   "typical_basis": "Canada Computers lists the same SKU at $874.99 new and $787.49 open-box today. About $720 is conservative for a sealed drive sold privately.",
+   "source": "Kijiji",
+   "location": "Côte-des-Neiges, Montréal (H3X)",
+   "condition": "New, sealed",
+   "specs": "2TB M.2 2280 PCIe 4.0 NVMe. Seller has the Amazon receipt for the 5-year warranty.",
+   "why": "About 43% below Canada Computers' current price for a sealed flagship Gen4 drive",
+   "caveats": "Seller rarely checks Kijiji. Check that the seal and receipt are intact. Local pickup.",
+   "fits_my_gear": true,
+   "fit_note": "Runs at full speed in the X570 Gen4 M.2 slot; also good for a Proxmox node",
+   "capacity_gb": 2000,
+   "deal_score": 1.44,
+   "discount_pct": 31,
+   "value_score": null,
+   "unit_price": "$250/TB",
+   "rank_score": 62.6,
+   "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/samsung-990-pro-2tb-ssd-m-2-gen4-new-sealed-warranty/1745067633",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 500.0
     }
    ]
   },
@@ -1607,21 +1642,106 @@
    "ram_gb": 32,
    "fits_my_gear": false,
    "why": "12-bay LFF R730xd with DDR4 for $450",
-   "caveats": "Very sparse ad, ~3 months old; ask CPU, RAID card, caddies, PSUs",
+   "caveats": "Very sparse ad, ~3 months old; ask CPU, RAID card, caddies, PSUs Re-check 2026-11-04: still listed on a Kijiji search results page at $450; ad page itself not fetched.",
    "available": true,
    "deal_score": 1.56,
    "discount_pct": 36,
    "value_score": null,
    "rank_score": 62.4,
    "id": "https://www.kijiji.ca/v-servers/ville-de-montreal/dell-poweredge-r730xd-server-32gig-ddr4-12-x-3-5-sata-sas-200/1726736933",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
      "total_cad": 450.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.canadacomputers.com/en/mid-tower-cases/274252/hyte-x50-pitch-black-cs-hyte-x50g-bb.html",
+   "title": "HYTE X50 mid-tower case (Pitch Black, glass)",
+   "category": "Case",
+   "total_cad": 119.99,
+   "price_cad": 119.99,
+   "shipping_cad": 0,
+   "typical_cad": 170,
+   "typical_basis": "CC regular $209.99; US MSRP about US$130 (~C$180); conservative Canadian street price about $170",
+   "source": "Canada Computers",
+   "location": "Montreal 2, Marche Central 2, Brossard 3, Laval 1, online 6",
+   "condition": "New",
+   "specs": "E-ATX/ATX/mATX/ITX, ATX PSU, panoramic glass, up to 3x120/140 front",
+   "cpu": null,
+   "ram_gb": null,
+   "storage_gb": null,
+   "capacity_gb": null,
+   "sodimm_slots": null,
+   "m2_and_sata": null,
+   "adapter": null,
+   "thin_client": false,
+   "fits_my_gear": true,
+   "fit_note": "Fits an ATX/mATX LGA1151 build with the i5-9500F + GTX 1050 (motherboard still needed)",
+   "why": "Save $90 (43% off regular)",
+   "caveats": "The sale countdown shows 00:00:00 and no end date. The page doesn't confirm whether fans are included. The HYTE X50 Air (mesh) is $104.99, regular $164.99. Prices are before tax. Re-check 2026-11-02: sale is over; CC page now shows $209.99 (regular price), so this is no longer a deal. Re-checked 2026-11-04: price dropped to $119.99 (SAVE $90; implied regular $209.99). Open box is $107.99. A bundle with the Super Flower Leadex VII XP 1000W PSU is $299.98. In stock online (10+).",
+   "deal_score": 1.42,
+   "discount_pct": 29,
+   "value_score": null,
+   "rank_score": 61.8,
+   "id": "https://www.canadacomputers.com/en/mid-tower-cases/274252/hyte-x50-pitch-black-cs-hyte-x50g-bb.html",
+   "status": "PRICE DROP",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-10-31",
+     "total_cad": 119.99
+    },
+    {
+     "date": "2026-11-02",
+     "total_cad": 209.99
+    },
+    {
+     "date": "2026-11-04",
+     "total_cad": 119.99
+    }
+   ],
+   "available": true
+  },
+  {
+   "url": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/samsung-2tb-ssd-2-5-brand-new/1745314788",
+   "title": "Samsung 2TB 2.5\" SATA SSD, brand new",
+   "category": "Storage",
+   "total_cad": 240,
+   "price_cad": 240,
+   "shipping_cad": 0,
+   "typical_cad": 340,
+   "typical_basis": "2026 NAND shortage: Kingston NV3 2TB is $429.99 new at Canada Computers. About $340 is conservative for a new Samsung 2TB SATA drive.",
+   "source": "Kijiji",
+   "location": "L'Île-Bizard, Montréal",
+   "condition": "New (per seller)",
+   "specs": "2TB 2.5\" SATA. Exact model not given (likely 870 EVO or QVO).",
+   "why": "New 2TB Samsung SATA SSD well below 2026 retail",
+   "caveats": "One-line ad with no model number. Ask EVO or QVO (QVO is worth less) and whether it's sealed.",
+   "fits_my_gear": true,
+   "fit_note": "Bigger 2.5\" SSD for a mini PC bay or Proxmox host",
+   "capacity_gb": 2000,
+   "deal_score": 1.42,
+   "discount_pct": 29,
+   "value_score": null,
+   "unit_price": "$120/TB",
+   "rank_score": 61.8,
+   "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/samsung-2tb-ssd-2-5-brand-new/1745314788",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 240.0
     }
    ]
   },
@@ -1658,7 +1778,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1699,7 +1819,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1740,7 +1860,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -1771,16 +1891,16 @@
    "fits_my_gear": true,
    "fit_note": "Add your 16GB SO-DIMM (up to 24GB); 2.5\" bay takes a spare SATA SSD",
    "why": "8th-gen 6-core 1L mini plus a monitor for $210, $50 more than the bare unit",
-   "caveats": "RAM stick layout and SSD type not stated; price somewhat negotiable; same seller as several tracked 600 G4s",
+   "caveats": "RAM stick layout and SSD type not stated; price somewhat negotiable; same seller as several tracked 600 G4s Re-check 2026-11-04: still listed on a Kijiji search results page at $210; ad page itself not fetched.",
    "available": true,
    "deal_score": 1.24,
    "discount_pct": 19,
    "value_score": 45.4,
    "rank_score": 61.2,
    "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/ensemble-ordi-hp-prodesk-600g4-core-i5-8500t-8go-ssd-256go-w11/1745516417",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -1822,7 +1942,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1853,21 +1973,21 @@
    "storage_gb": 240,
    "capacity_gb": null,
    "sodimm_slots": 2,
-   "m2_and_sata": "M.2 2280 NVMe + 2.5\" SATA bay",
+   "m2_and_sata": true,
    "adapter": null,
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "If the 16GB is 2x8, swap one stick for your 16GB SO-DIMM (24GB). Your 2.5\" SATA SSDs fit the bay.",
    "why": "Ryzen 3000 Pro with 8 threads and 16GB for about $249 delivered; Best Offer enabled, 5 in stock",
-   "caveats": "Shipping shown as 'varies'. C$30 is an estimate based on this seller's other listings. Adapter isn't stated. No returns.",
+   "caveats": "Shipping shown as 'varies'. C$30 is an estimate based on this seller's other listings. Adapter isn't stated. No returns. Re-checked 2026-11-04 on the eBay.ca browse page: C$219 or Best Offer + C$30 shipping, still listed.",
    "deal_score": 1.2,
    "discount_pct": 17,
    "value_score": 45.2,
    "rank_score": 60.5,
    "id": "https://www.ebay.ca/itm/389194801047",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -1890,7 +2010,7 @@
    "thin_client": false,
    "fits_my_gear": false,
    "fit_note": "",
-   "caveats": "Very vague mass-dealer ad (4,849 listings): CPU, RAM, PSU, RAID, rails, drive caddies unknown; call 514 number before visiting; loud/power hungry",
+   "caveats": "Very vague mass-dealer ad (4,849 listings): CPU, RAM, PSU, RAID, rails, drive caddies unknown; call 514 number before visiting; loud/power hungry Re-check 2026-11-04: still listed on a Kijiji search results page at $499; ad page itself not fetched.",
    "url": "https://www.kijiji.ca/v-servers/ville-de-montreal/hp-dl380-gen-10-16-core-12-x3-5-ddr4-server-100-hp-dell-server-u/1731539384",
    "title": "HPE ProLiant DL380 Gen10 12x3.5\" LFF, 16 cores, DDR4",
    "category": "Server / Workstation",
@@ -1907,10 +2027,10 @@
    "value_score": null,
    "rank_score": 60.0,
    "id": "https://www.kijiji.ca/v-servers/ville-de-montreal/hp-dl380-gen-10-16-core-12-x3-5-ddr4-server-100-hp-dell-server-u/1731539384",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1951,7 +2071,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -1982,10 +2102,10 @@
    "value_score": null,
    "rank_score": 59.4,
    "id": "https://www.ebay.com/itm/178542713009",
-   "status": "NEW",
+   "status": "NOT SEEN",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-03",
@@ -2006,7 +2126,7 @@
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "8th-gen i5 means a 300-series LGA1151v2 board (CyberPower used B360/H310): drop in your i5-9500F (BIOS update may be needed), add your 2x8GB DDR4-2666 and SATA SSDs; i5-8400 has an iGPU for a headless Proxmox host",
-   "caveats": "Motherboard chipset and PSU not stated; verify before buying; prebuilt PSU likely modest wattage",
+   "caveats": "Motherboard chipset and PSU not stated; verify before buying; prebuilt PSU likely modest wattage Re-check 2026-11-04: still listed on a Kijiji search results page at $200; ad page itself not fetched.",
    "url": "https://www.kijiji.ca/v-general-electronics/ville-de-montreal/cyberpowerpc-gamer-xtreme-vr-gxivr8020a5-gaming-pc-intel-i5-840/1741891480",
    "title": "CyberPowerPC Gamer Xtreme VR GXiVR8020A5: i5-8400 / RX 580 4GB / 8GB DDR4 / 1TB HDD",
    "category": "Desktop",
@@ -2023,10 +2143,10 @@
    "value_score": null,
    "rank_score": 59.0,
    "id": "https://www.kijiji.ca/v-general-electronics/ville-de-montreal/cyberpowerpc-gamer-xtreme-vr-gxivr8020a5-gaming-pc-intel-i5-840/1741891480",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2065,10 +2185,10 @@
    "unit_price": "$5.12/GB",
    "rank_score": 58.6,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/samsung-hynix-4-8-16-32-gb-ddr4-2400-2666-3200mhz-ram/1743288621",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2106,9 +2226,9 @@
    "value_score": 45.1,
    "rank_score": 58.6,
    "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/ordi-hp-prodesk-600g4-core-i5-8500t-8go-ssd-128go-hd-1to-w11-pro/1745597062",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -2149,10 +2269,10 @@
    "unit_price": "$4.69/GB",
    "rank_score": 58.2,
    "id": "https://www.kijiji.ca/v-other-computer-products/ville-de-montreal/4x-kingston-8gb-ddr4-2666mhz-laptop-ram-sodimm/1744362595",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2184,16 +2304,16 @@
    "fits_my_gear": true,
    "fit_note": "Runs at Gen3/Gen4 speed in older mini PCs, so the Gen5 speed is wasted there",
    "why": "Save $270 (about 30% off)",
-   "caveats": "Only 1 unit is online and the sale timer reads 00:00:00. For the homelab, the SN850X is the better value. Re-check 2026-11-02: now $599.99 (SAVE $290), online 9, 0 in Montreal stores.",
+   "caveats": "Only 1 unit is online and the sale timer reads 00:00:00. For the homelab, the SN850X is the better value. Re-check 2026-11-02: now $599.99 (SAVE $290), online 9, 0 in Montreal stores. Re-checked 2026-11-04: still $599.99 (SAVE $290), available to ship, \"Online 9\".",
    "deal_score": 1.33,
    "discount_pct": 25,
    "value_score": null,
    "unit_price": "$300/TB",
    "rank_score": 58.2,
    "id": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/273064/wd-black-sn8100-2tb-pcie-gen5x4-nvme-m-2-2280-ssd-wds200t1x0m.html",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -2208,11 +2328,86 @@
    "available": true
   },
   {
+   "url": "https://www.kijiji.ca/v-computer-components/longueuil-rive-sud/kingston-a400-1-92tb-sata-2-5-inch-internal-ssd-sa400s37-1920g/1744295972",
+   "title": "Kingston A400 1.92TB 2.5\" SATA SSD (SA400S37/1920G)",
+   "category": "Storage",
+   "total_cad": 195,
+   "price_cad": 195,
+   "shipping_cad": 0,
+   "typical_cad": 260,
+   "typical_basis": "New 2TB-class SSDs run $350-430 in 2026; used 2TB SATA drives are asked at $230-240 locally",
+   "source": "Kijiji",
+   "location": "La Prairie (South Shore)",
+   "condition": "Used, excellent",
+   "specs": "1.92TB SATA. SMART: health 97%, 389 power-on hours, 1,152 power cycles, 15.4TB written, 0 bad blocks, 0 uncorrectable errors",
+   "why": "Nearly 2TB of SATA flash with very low wear, about 25% under typical",
+   "caveats": "DRAM-less budget drive; slows down on sustained writes. Better for bulk or boot than heavy VM writes.",
+   "fits_my_gear": true,
+   "fit_note": "Fits a 2.5\" bay in a mini PC or Proxmox host",
+   "capacity_gb": 1920,
+   "deal_score": 1.33,
+   "discount_pct": 25,
+   "value_score": null,
+   "unit_price": "$102/TB",
+   "rank_score": 58.2,
+   "id": "https://www.kijiji.ca/v-computer-components/longueuil-rive-sud/kingston-a400-1-92tb-sata-2-5-inch-internal-ssd-sa400s37-1920g/1744295972",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 195.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/hp-elitedesk-800-g3-mini-i5-7500-3-40ghz-8gb-250gb-ssd/1745555936",
+   "title": "HP EliteDesk 800 G3 Mini i5-7500 8GB 250GB SSD",
+   "category": "Mini PC",
+   "total_cad": 150,
+   "price_cad": 150,
+   "shipping_cad": 0,
+   "typical_cad": 170,
+   "typical_basis": "800 G3 Mini i5 8/256 about $150-190 used in Canada",
+   "source": "Kijiji",
+   "location": "Pierrefonds, Montréal",
+   "condition": "Used - Like new",
+   "specs": "i5-7500 (65W), 8GB DDR4, 250GB SSD; 2 SO-DIMM, 2x M.2, 2.5\" bay",
+   "cpu": "i5-7500",
+   "ram_gb": 8,
+   "storage_gb": 250,
+   "sodimm_slots": 2,
+   "m2_and_sata": true,
+   "adapter": null,
+   "thin_client": false,
+   "why": "Roomy 1L box (2x NVMe + 2.5\") for $150; seller can ship",
+   "caveats": "7th gen. Adapter not mentioned (needs 90W HP brick). RAM layout not stated.",
+   "fits_my_gear": true,
+   "fit_note": "Your 16GB SO-DIMM fits if the 8GB is one stick; 2.5\" bay for spare SSDs",
+   "deal_score": 1.13,
+   "discount_pct": 12,
+   "value_score": 43.3,
+   "rank_score": 58.0,
+   "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/hp-elitedesk-800-g3-mini-i5-7500-3-40ghz-8gb-250gb-ssd/1745555936",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 150.0
+    }
+   ]
+  },
+  {
    "url": "https://www.ebay.ca/p/7040743333?iid=176592424510",
    "title": "AMD EPYC 7402P 24-core 2.8GHz (SP3)",
    "category": "CPU",
-   "total_cad": 104,
-   "price_cad": 84,
+   "total_cad": 103.99,
+   "price_cad": 83.99,
    "shipping_cad": 20,
    "typical_cad": 150,
    "typical_basis": "eBay.ca unlocked 7402P C$175+8; locked chips sell lower; set C$150",
@@ -2224,16 +2419,16 @@
    "fits_my_gear": false,
    "fit_note": "Needs SP3 board + RDIMMs",
    "why": "24-core Proxmox CPU at C$84 Best Offer",
-   "caveats": "Vendor-lock (PSB) status unknown — if locked worth ~C$100-120; shipping estimated",
+   "caveats": "Re-checked 2026-11-04: item page live at US$59.95 or Best Offer (about C$83.99), more than 10 available. Seller is Core 4 Solutions in Eden Prairie, MN. The listing says \"*** UNLOCKED ***\" (seller claim, not PSB-verified). Free UPS Ground is quoted for the US only; Canada shipping (~C$20 estimate) and possible import GST/QST are not confirmed. USD to CAD at ~1.38.",
    "available": true,
    "deal_score": 1.44,
    "discount_pct": 31,
    "value_score": null,
    "rank_score": 57.6,
    "id": "https://www.ebay.ca/p/7040743333",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -2272,9 +2467,9 @@
    "value_score": null,
    "rank_score": 57.6,
    "id": "https://www.kijiji.ca/v-laptops/ville-de-montreal/pc-gamer-laptop/1744648160",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -2314,10 +2509,10 @@
    "unit_price": "$6.19/GB",
    "rank_score": 57.4,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/mushkin-redline-ddr4-32-gb:-2-x-16-gb-desktop-gaming-memory/1743098429",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2341,20 +2536,104 @@
    "fits_my_gear": true,
    "fit_note": "Proxmox homelab node: 20C/40T with 24 DIMM slots. Intel Xeon, so no AMD PSB vendor lock.",
    "why": "The dual 10-core v4 server with 32GB DDR4 costs about what the RAM alone is worth at 2026 DRAM prices.",
-   "caveats": "The listing page could not be opened (Kijiji robots), so details come from today's 'xeon e5' Greater Montréal search page. The ad is old (ID 1711...), so confirm it is still available. The seller mentions a sale and cash pricing, so the price may vary. Ask how many PSUs, which drive caddies and which RAID card are included. A 2U server is loud.",
+   "caveats": "The listing page could not be opened (Kijiji robots), so details come from today's 'xeon e5' Greater Montréal search page. The ad is old (ID 1711...), so confirm it is still available. The seller mentions a sale and cash pricing, so the price may vary. Ask how many PSUs, which drive caddies and which RAID card are included. A 2U server is loud. Re-check 2026-11-04: ad page fetched today, live at this price.",
    "deal_score": 1.31,
    "discount_pct": 24,
    "value_score": null,
    "rank_score": 57.4,
    "id": "https://www.kijiji.ca/v-servers/ville-de-montreal/lenovo-system-x-3650-m5-2x-xeon-e5-2630-lenovo-x3650-m5-2x-xeon/1711012540",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-03",
      "total_cad": 290.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.canadacomputers.com/en/unmanaged-switches/200538/tp-link-tl-sg108-m2-8-port-2-5g-unmanaged-network-switch-tl-sg108-m2.html",
+   "title": "TP-Link TL-SG108-M2 8-port 2.5G unmanaged switch",
+   "category": "Networking",
+   "total_cad": 79.99,
+   "price_cad": 79.99,
+   "shipping_cad": 0,
+   "typical_cad": 105,
+   "typical_basis": "CC regular $149.99; typical Canadian street price is about $100-120 (conservative $105)",
+   "source": "Canada Computers",
+   "location": "Marche Central 2, Brossard 2, online 2",
+   "condition": "New",
+   "specs": "8x 2.5GbE RJ45, unmanaged, metal desktop",
+   "cpu": null,
+   "ram_gb": null,
+   "storage_gb": null,
+   "capacity_gb": null,
+   "sodimm_slots": null,
+   "m2_and_sata": null,
+   "adapter": true,
+   "thin_client": false,
+   "fits_my_gear": true,
+   "fit_note": "2.5G switch for the homelab cluster",
+   "why": "Save $70 off regular",
+   "caveats": "Stock is low. The ASUS QG-U1080 above costs the same and adds SFP+, so it's the better buy. Prices are before tax. Re-check 2026-11-02: price now $84.99 (SAVE $65); Marche Central 2, Brossard 1, online 2. Re-checked 2026-11-04: price is now $79.99 (SAVE $70), with 2 units online and open box at $71.99.",
+   "deal_score": 1.31,
+   "discount_pct": 24,
+   "value_score": null,
+   "rank_score": 57.4,
+   "id": "https://www.canadacomputers.com/en/unmanaged-switches/200538/tp-link-tl-sg108-m2-8-port-2-5g-unmanaged-network-switch-tl-sg108-m2.html",
+   "status": "PRICE DROP",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-10-31",
+     "total_cad": 79.99
+    },
+    {
+     "date": "2026-11-02",
+     "total_cad": 84.99
+    },
+    {
+     "date": "2026-11-04",
+     "total_cad": 79.99
+    }
+   ],
+   "available": true
+  },
+  {
+   "url": "https://www.ebay.ca/p/17055317062?iid=188809502402",
+   "title": "Mellanox ConnectX-4 Lx MCX4121A-ACAT dual 25GbE SFP28 NIC (open box)",
+   "category": "Networking",
+   "total_cad": 72.26,
+   "price_cad": 72.26,
+   "shipping_cad": 0,
+   "typical_cad": 95,
+   "typical_basis": "Same eBay.ca product page today: established sellers C$118-140 shipped; next cheapest C$81-96",
+   "source": "eBay.ca (seller myzubix, 23 feedback)",
+   "location": "Likely overseas",
+   "condition": "Open box",
+   "specs": "2x SFP28 (25G/10G), PCIe 3.0 x8, no transceivers",
+   "why": "Dual 25/10G NIC for C$72 shipped, about 25% under typical",
+   "caveats": "Low-feedback seller; genuine vs clone not stated; bracket type not stated. Price shown in C$ on the page (US$51.58).",
+   "fits_my_gear": true,
+   "fit_note": "10/25G links for a Proxmox node; pairs with tracked SFP+ switches",
+   "capacity_gb": null,
+   "deal_score": 1.31,
+   "discount_pct": 24,
+   "value_score": null,
+   "rank_score": 57.4,
+   "id": "https://www.ebay.ca/p/17055317062",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 72.26
     }
    ]
   },
@@ -2376,21 +2655,21 @@
    "storage_gb": 256,
    "capacity_gb": null,
    "sodimm_slots": 2,
-   "m2_and_sata": "M.2 2280 NVMe + 2.5\" SATA bay (needs caddy/cable)",
+   "m2_and_sata": true,
    "adapter": null,
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "Add your 16GB SO-DIMM for 24GB.",
    "why": "Canadian seller with 10+ in stock and Best Offer enabled.",
-   "caveats": "Shipping not shown; ~C$25 is an estimate. Adapter not explicitly listed (the note mentions 'all necessary accessories'). No returns.",
+   "caveats": "Shipping not shown; ~C$25 is an estimate. Adapter not explicitly listed (the note mentions 'all necessary accessories'). No returns. Re-checked 2026-11-04: item page live at C$199 or Best Offer, more than 10 available, ships from Mississauga ON, shipping still shown as \"Varies\".",
    "deal_score": 1.29,
    "discount_pct": 23,
    "value_score": 40.3,
    "rank_score": 57.2,
    "id": "https://www.ebay.ca/itm/327298660570",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -2432,10 +2711,10 @@
    "unit_price": "$4.38/GB",
    "rank_score": 57.2,
    "id": "https://www.kijiji.ca/v-laptop-accessories/ville-de-montreal/kingston-16gb-3200mhz-ddr4-sodimm-laptop-ram/1743837128",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2473,10 +2752,10 @@
    "value_score": null,
    "rank_score": 57.0,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/motherboard-msi-z390-a-pro/1744692648",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2513,7 +2792,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2551,14 +2830,49 @@
    "value_score": null,
    "rank_score": 57.0,
    "id": "https://www.kijiji.ca/v-laptops/laval-rive-nord/dell-latitude-5400-laptop/1744539595",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-03",
      "total_cad": 200.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.kijiji.ca/v-computer-components/laval-rive-nord/samsung-860-evo-4tb-2-5-sata-internal-ssd-2-available/1743558243",
+   "title": "Samsung 860 EVO 4TB 2.5\" SATA SSD (MZ-7LH4T0), 2 available at $600 each",
+   "category": "Storage",
+   "total_cad": 600,
+   "price_cad": 600,
+   "shipping_cad": 0,
+   "typical_cad": 780,
+   "typical_basis": "Estimate: 2TB drives run $430+ new in 2026, so a 4TB Samsung SATA drive is about $900+ new. No direct 4TB comparable found.",
+   "source": "Kijiji",
+   "location": "Blainville (Laval / North Shore)",
+   "condition": "Used, like new",
+   "specs": "4TB SATA TLC. Seller says it passes SMART with no bad blocks; no hours or TBW given.",
+   "why": "4TB TLC SATA per drive; a matched pair is available for a ZFS mirror",
+   "caveats": "Price is per drive. Ask for SMART screenshots. The typical price is an estimate. Seller ships.",
+   "fits_my_gear": true,
+   "fit_note": "Large 2.5\" SATA pool for a Proxmox host",
+   "capacity_gb": 4000,
+   "deal_score": 1.3,
+   "discount_pct": 23,
+   "value_score": null,
+   "unit_price": "$150/TB",
+   "rank_score": 57.0,
+   "id": "https://www.kijiji.ca/v-computer-components/laval-rive-nord/samsung-860-evo-4tb-2-5-sata-internal-ssd-2-available/1743558243",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 600.0
     }
    ]
   },
@@ -2585,9 +2899,9 @@
    "value_score": null,
    "rank_score": 56.8,
    "id": "https://www.kijiji.ca/v-computer-networking/ville-de-montreal/fortiap-221c-50-ubiquiti-unifi-6-long-range-u6-lr-120-500-uni/1742108401",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -2627,10 +2941,10 @@
    "unit_price": "$5.31/GB",
    "rank_score": 56.6,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/2-x-8gb-kinston-high-performant-sodimm-laptop-memories-ddr4-2666/1745479666",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2669,10 +2983,10 @@
    "value_score": null,
    "rank_score": 56.6,
    "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/hp-z440-3-5ghz-64g-ddr4-esxi-xeon-workstation-ai-gamer-pc/1717291870",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2709,7 +3023,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2733,21 +3047,59 @@
    "fits_my_gear": false,
    "fit_note": "Good for a 9500F build or Proxmox passthrough/AI node",
    "why": "12GB 3060 at ~0.7x used market",
-   "caveats": "Search-page snippet only; exact model variant unknown",
+   "caveats": "Search-page snippet only; exact model variant unknown. Re-check 2026-11-04: listed live at this price on today's Kijiji Greater Montréal search page, but the ad page itself could not be fetched (robots/client error), so this is snippet-only, not fetched.",
    "available": true,
    "deal_score": 1.4,
    "discount_pct": 29,
    "value_score": null,
    "rank_score": 56.0,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/asus-geforce-rtx-3060-12gb/1745082429",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-02",
      "total_cad": 250.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.ebay.ca/itm/137762637426",
+   "title": "NVIDIA Quadro P1000 4GB 4x mDP (passive)",
+   "category": "GPU",
+   "total_cad": 57,
+   "price_cad": 42,
+   "shipping_cad": 15,
+   "typical_cad": 80,
+   "typical_basis": "eBay.ca P1000 4GB tested C$85; set C$80",
+   "source": "eBay.ca",
+   "location": "Unknown",
+   "condition": "Pre-owned",
+   "specs": "Pascal 4GB GDDR5, 47W, LP, NVENC",
+   "fits_my_gear": false,
+   "fit_note": "Similar NVENC to your GTX 1050",
+   "why": "P1000 at ~0.75x typical",
+   "caveats": "Fanless cooler needs airflow; shipping estimated C$15; category-page data only. Re-checked 2026-11-04 on the eBay.ca browse page: now C$42 or Best Offer (was C$45), shipping not shown.",
+   "available": true,
+   "deal_score": 1.4,
+   "discount_pct": 29,
+   "value_score": null,
+   "rank_score": 56.0,
+   "id": "https://www.ebay.ca/itm/137762637426",
+   "status": "PRICE DROP",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-02",
+     "total_cad": 60.0
+    },
+    {
+     "date": "2026-11-04",
+     "total_cad": 57.0
     }
    ]
   },
@@ -2768,16 +3120,16 @@
    "fits_my_gear": true,
    "fit_note": "DDR4 DIMMs upgrade the AM4 X570 (3700X/5700X3D path) or the Z370 rig from 16GB to 32GB. The Gen4 NVMe can run at full speed in the X570's M.2 slot.",
    "why": "A 32GB DDR4 kit plus a 1TB Gen4 SSD for about the price of the RAM alone at 2026 shortage prices.",
-   "caveats": "The listing page could not be opened (Kijiji robots). The contents and price come from the snippet on today's 'computer-parts' Greater Montréal search page. The RAM speed/CL and exact SSD model are unknown, and the listing may include more parts or sell items separately. Confirm SMART/health of the SSD.",
+   "caveats": "The listing page could not be opened (Kijiji robots). The contents and price come from the snippet on today's 'computer-parts' Greater Montréal search page. The RAM speed/CL and exact SSD model are unknown, and the listing may include more parts or sell items separately. Confirm SMART/health of the SSD. Re-check 2026-11-04: ad page shows $300 (page also names Corsair Vengeance RGB PRO 2x16GB up to 3200MHz), but today's 'ddr4 ram 32gb' search page showed this ad at $450. Confirm the price before acting.",
    "deal_score": 1.27,
    "discount_pct": 21,
    "value_score": null,
    "unit_price": "$9.38/GB",
    "rank_score": 55.8,
    "id": "https://www.kijiji.ca/v-desktop-computers/laval-rive-nord/pc-parts/1743689893",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -2819,7 +3171,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2860,7 +3212,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -2896,7 +3248,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -2922,21 +3274,21 @@
    "storage_gb": 0,
    "capacity_gb": null,
    "sodimm_slots": 2,
-   "m2_and_sata": "M.2 2280 NVMe + 2.5\" SATA bay (needs caddy/cable)",
+   "m2_and_sata": true,
    "adapter": null,
    "thin_client": false,
    "fits_my_gear": true,
    "fit_note": "Built for your parts: your 16GB SO-DIMM plus a 256/512GB SSD makes a 16GB node for about $154 + cable. Use an M.2 NVMe drive, or buy the Dell 2.5\" SATA cable (~$10-15) for your SATA SSDs.",
    "why": "Cheapest way to a 6-core 8th-gen Proxmox node using RAM and SSD you already own. 10 available, Best Offer enabled.",
-   "caveats": "Shipping estimated. Adapter not confirmed (Dell 65W/90W barrel, ~$20 if missing). The listing contradicts itself on storage/OS fields. The 2.5\" cable/caddy is likely missing. No returns.",
+   "caveats": "Shipping estimated. Adapter not confirmed (Dell 65W/90W barrel, ~$20 if missing). The listing contradicts itself on storage/OS fields. The 2.5\" cable/caddy is likely missing. No returns. Re-checked 2026-11-04 on the eBay.ca browse page: C$129 or Best Offer, shipping not shown.",
    "deal_score": 1.23,
    "discount_pct": 19,
    "value_score": 39.0,
    "rank_score": 55.2,
    "id": "https://www.ebay.ca/itm/327431153264",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -2972,7 +3324,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -3009,59 +3361,13 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
      "total_cad": 479.99
     }
    ]
-  },
-  {
-   "url": "https://www.canadacomputers.com/en/unmanaged-switches/200538/tp-link-tl-sg108-m2-8-port-2-5g-unmanaged-network-switch-tl-sg108-m2.html",
-   "title": "TP-Link TL-SG108-M2 8-port 2.5G unmanaged switch",
-   "category": "Networking",
-   "total_cad": 84.99,
-   "price_cad": 84.99,
-   "shipping_cad": 0,
-   "typical_cad": 105,
-   "typical_basis": "CC regular $149.99; typical Canadian street price is about $100-120 (conservative $105)",
-   "source": "Canada Computers",
-   "location": "Marche Central 2, Brossard 2, online 2",
-   "condition": "New",
-   "specs": "8x 2.5GbE RJ45, unmanaged, metal desktop",
-   "cpu": null,
-   "ram_gb": null,
-   "storage_gb": null,
-   "capacity_gb": null,
-   "sodimm_slots": null,
-   "m2_and_sata": null,
-   "adapter": true,
-   "thin_client": false,
-   "fits_my_gear": true,
-   "fit_note": "2.5G switch for the homelab cluster",
-   "why": "Save $70 off regular",
-   "caveats": "Stock is low. The ASUS QG-U1080 above costs the same and adds SFP+, so it's the better buy. Prices are before tax. Re-check 2026-11-02: price now $84.99 (SAVE $65); Marche Central 2, Brossard 1, online 2.",
-   "deal_score": 1.24,
-   "discount_pct": 19,
-   "value_score": null,
-   "rank_score": 54.6,
-   "id": "https://www.canadacomputers.com/en/unmanaged-switches/200538/tp-link-tl-sg108-m2-8-port-2-5g-unmanaged-network-switch-tl-sg108-m2.html",
-   "status": "NOT SEEN",
-   "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
-   "missed_days": 0,
-   "price_history": [
-    {
-     "date": "2026-10-31",
-     "total_cad": 79.99
-    },
-    {
-     "date": "2026-11-02",
-     "total_cad": 84.99
-    }
-   ],
-   "available": true
   },
   {
    "url": "https://www.ebay.com/itm/800829916280",
@@ -3096,7 +3402,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3133,20 +3439,60 @@
    "fits_my_gear": true,
    "fit_note": "The Z2 G4 (C246) takes the same 8th/9th-gen LGA1151v2 CPUs. Your spare i5-9500F has no iGPU, so it would need a GPU, but your 2x8GB DDR4-2666 UDIMMs fit.",
    "why": "6-core i7-8700 workstation for $275 (ratio ~1.24)",
-   "caveats": "The page was blocked (robots) today, so data comes from the search snippet only, including the price and specs. It is probably the same seller as the tracked Z2 ad 1745553179 ($300), so it may be a re-post or a second unit. RAM, SSD size, and form factor (SFF or tower) are unverified.",
+   "caveats": "The page was blocked (robots) today, so data comes from the search snippet only, including the price and specs. It is probably the same seller as the tracked Z2 ad 1745553179 ($300), so it may be a re-post or a second unit. RAM, SSD size, and form factor (SFF or tower) are unverified. Re-check 2026-11-04: listed live at this price on today's Kijiji Greater Montréal search page, but the ad page itself could not be fetched (robots/client error), so this is snippet-only, not fetched.",
    "deal_score": 1.24,
    "discount_pct": 19,
    "value_score": null,
    "rank_score": 54.6,
    "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/z2-cor-i7-8-th-gen-desktop-with-nmve-ssd/1743671021",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-03",
      "total_cad": 275.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/lenovo-thinkcentre-m710q-tiny-pc/1745564929",
+   "title": "Lenovo ThinkCentre M710q Tiny i5-7500T 8GB 120GB SSD, adapter incl.",
+   "category": "Mini PC",
+   "total_cad": 160,
+   "price_cad": 160,
+   "shipping_cad": 0,
+   "typical_cad": 170,
+   "typical_basis": "Kijiji Montréal 6th/7th-gen 1L minis with 8GB/SSD list at $140-180",
+   "source": "Kijiji",
+   "location": "Saint-Laurent, Montréal",
+   "condition": "Used - Like new",
+   "specs": "i5-7500T, 8GB DDR4 (1 stick, 1 slot free), 120GB SATA SSD, M.2 slot, Wi-Fi, Win 11 Pro, adapter",
+   "cpu": "i5-7500T",
+   "ram_gb": 8,
+   "storage_gb": 120,
+   "sodimm_slots": 2,
+   "m2_and_sata": true,
+   "adapter": true,
+   "thin_client": false,
+   "why": "Cheap complete Proxmox node with adapter and a free SO-DIMM slot",
+   "caveats": "7th gen; fair price rather than a steal",
+   "fits_my_gear": true,
+   "fit_note": "Free SO-DIMM slot for your 16GB stick (24GB); swap in a spare 2.5\" SSD",
+   "deal_score": 1.06,
+   "discount_pct": 6,
+   "value_score": 40.5,
+   "rank_score": 54.6,
+   "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/lenovo-thinkcentre-m710q-tiny-pc/1745564929",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 160.0
     }
    ]
   },
@@ -3166,16 +3512,16 @@
    "fits_my_gear": false,
    "fit_note": "Would suit a future 9500F build",
    "why": "16GB card ~0.7x today's used market, popular for local LLMs",
-   "caveats": "Price/title from Kijiji search page only (ad page blocked); condition unverified",
+   "caveats": "Price/title from Kijiji search page only (ad page blocked); condition unverified. Re-check 2026-11-04: listed live at this price on today's Kijiji Greater Montréal search page, but the ad page itself could not be fetched (robots/client error), so this is snippet-only, not fetched.",
    "available": true,
    "deal_score": 1.36,
    "discount_pct": 27,
    "value_score": null,
    "rank_score": 54.4,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/msi-ventus-2x-rtx-4060-ti-16gb-version/1744995306",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -3208,15 +3554,15 @@
    "fits_my_gear": true,
    "fit_note": "This is all AM4. The RTX 3080 is the GPU upgrade you were after for the X570 + 3700X box, and the 5800X and 64GB DDR4 could also move straight into your TUF X570-Plus.",
    "why": "RTX 3080 + 5800X + 64GB DDR4 system plus monitors for $1,300, about $300 under comparable 32GB builds (ratio ~1.23)",
-   "caveats": "The listing page could not be opened today (Kijiji client_error), so specs and price come from two search-result pages seen today ('Prebuilt Gaming PC + Monitors', $1,300). PSU, board, monitor models, and availability are unverified. The ad is about 3 weeks old.",
+   "caveats": "The listing page could not be opened today (Kijiji client_error), so specs and price come from two search-result pages seen today ('Prebuilt Gaming PC + Monitors', $1,300). PSU, board, monitor models, and availability are unverified. The ad is about 3 weeks old. Re-check 2026-11-04: listed live at this price on today's Kijiji Greater Montréal search page, but the ad page itself could not be fetched (robots/client error), so this is snippet-only, not fetched.",
    "deal_score": 1.23,
    "discount_pct": 19,
    "value_score": null,
    "rank_score": 54.2,
    "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/gaming-pc-monitors/1740953863",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -3258,7 +3604,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "missed_days": 3,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3290,15 +3636,15 @@
    "fits_my_gear": true,
    "fit_note": "2 DDR4 SO-DIMM slots: your 16GB DDR4-2666 SO-DIMM could take it to 24-32GB depending on the current stick layout.",
    "why": "6-core H-series 14\" business laptop for about C$310",
-   "caveats": "Borderline ratio (1.23). Snapshot updated Sep 2 2026, 'last one', may be gone. US$191.83 at 1.38, Best Offer, shipping to Canada estimated. Re-check 2026-11-02: item page active, 'Last one', US$191.83 or Best Offer (x1.39); shipping to Canada not shown.",
+   "caveats": "Borderline ratio (1.23). Snapshot updated Sep 2 2026, 'last one', may be gone. US$191.83 at 1.38, Best Offer, shipping to Canada estimated. Re-check 2026-11-02: item page active, 'Last one', US$191.83 or Best Offer (x1.39); shipping to Canada not shown. Re-checked 2026-11-04: the fetched page still shows US$191.83 or Best Offer, \"Last one\", but eBay served a snapshot dated Sep 2 2026, so current availability is uncertain.",
    "deal_score": 1.22,
    "discount_pct": 18,
    "value_score": null,
    "rank_score": 53.8,
    "id": "https://www.ebay.com/itm/389194281648",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -3313,43 +3659,37 @@
    "available": true
   },
   {
-   "url": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/topton-fu02-fanless-mini-pc-amd-ryzen-7-7730u-barebones/1742934570",
-   "title": "Topton FU02 Fanless Mini PC AMD Ryzen 7 7730U Barebones",
-   "category": "Mini PC",
-   "total_cad": 300,
-   "price_cad": 300,
+   "url": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/64gb-ddr5-laptop-mini-micro-desktop-computer-memory-ram/1720501933",
+   "title": "Corsair Vengeance 64GB DDR5 SO-DIMM (single stick)",
+   "category": "Memory",
+   "total_cad": 598,
+   "price_cad": 598,
    "shipping_cad": 0,
-   "typical_cad": 420,
-   "typical_basis": "Ryzen 7 5825U/7730U mini PCs, new, configured on Newegg.ca: $690-900 (Beelink EQR5). Barebones new from AliExpress ~US$250-300 + duties",
+   "typical_cad": 800,
+   "typical_basis": "Local 16GB DDR5 asks run $230-280 ($14-17/GB); seller quotes $1,319.99 new; about $800 is conservative",
    "source": "Kijiji",
-   "location": "Downtown Montréal (H3A), office pickup",
-   "condition": "Used - Like new; 'last unit'",
-   "specs": "Ryzen 7 7730U 8C/16T Zen3, fanless aluminum, 2x DDR4 SO-DIMM (up to 64GB, 3200), 1x M.2 2280 NVMe PCIe3 x4, 2.5\" 7mm bay, 2x GbE, Wi-Fi 6, 2x HDMI",
-   "cpu": "AMD Ryzen 7 7730U",
-   "ram_gb": 0,
-   "storage_gb": 0,
-   "capacity_gb": null,
-   "sodimm_slots": 2,
-   "m2_and_sata": "1x M.2 2280 NVMe + 2.5\" SATA bay",
-   "adapter": null,
-   "thin_client": false,
-   "fits_my_gear": true,
-   "fit_note": "Barebones that matches your parts: your 16GB DDR4-2666 SO-DIMM and a 2.5\" SATA SSD make an 8-core/16-thread node with no other purchases.",
-   "why": "Standout: 8C/16T Zen3 with dual NIC, fanless and silent, much stronger than any 8th-gen tiny, and it uses RAM/SSD you already own.",
-   "caveats": "At the $300 standout ceiling. Barebones (no RAM or storage). Adapter not stated. Kijiji search showed $350 in one snapshot while the ad page said $300, so confirm the price. NICs are 1GbE only (not 2.5G). Fanless units run hot under sustained load.",
-   "deal_score": 1.4,
-   "discount_pct": 29,
-   "value_score": 35.0,
+   "location": "Montréal (H4V)",
+   "condition": "Used, like new",
+   "specs": "1x64GB DDR5 SO-DIMM; speed and part number not given",
+   "why": "About $9.30/GB for DDR5 SO-DIMM",
+   "caveats": "Price is firm. Needs a recent platform (Intel 12th gen+ / AMD 7000+). Ask for the part number.",
+   "fits_my_gear": false,
+   "fit_note": "No DDR5 gear yet",
+   "capacity_gb": 64,
+   "deal_score": 1.34,
+   "discount_pct": 25,
+   "value_score": null,
+   "unit_price": "$9.34/GB",
    "rank_score": 53.6,
-   "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/topton-fu02-fanless-mini-pc-amd-ryzen-7-7730u-barebones/1742934570",
-   "status": "NOT SEEN",
-   "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/64gb-ddr5-laptop-mini-micro-desktop-computer-memory-ram/1720501933",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
-     "date": "2026-10-31",
-     "total_cad": 300.0
+     "date": "2026-11-04",
+     "total_cad": 598.0
     }
    ]
   },
@@ -3381,10 +3721,10 @@
    "value_score": 38.0,
    "rank_score": 53.5,
    "id": "https://www.ebay.ca/itm/800243541546",
-   "status": "NEW",
+   "status": "NOT SEEN",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-03",
@@ -3416,16 +3756,16 @@
    "fits_my_gear": true,
    "fit_note": "Works in any mini PC or host with an M.2 2280 NVMe slot",
    "why": "Save $190 on a high-end TLC 2TB during the DRAM/NAND shortage",
-   "caveats": "The ratio is only about 1.21, so the margin is thin. QLC-class 2TB drives such as the Kingston NV3 cost $430, so this pays only if you want TLC/endurance. The search grid showed $579.99 and the product page shows $569.99. Prices are before tax.",
+   "caveats": "The ratio is only about 1.21, so the margin is thin. QLC-class 2TB drives such as the Kingston NV3 cost $430, so this pays only if you want TLC/endurance. The search grid showed $579.99 and the product page shows $569.99. Prices are before tax. Re-checked 2026-11-04: still $569.99 (SAVE $190), available to ship, open box $512.99.",
    "deal_score": 1.21,
    "discount_pct": 17,
    "value_score": null,
    "unit_price": "$285/TB",
    "rank_score": 53.4,
    "id": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/226019/wd-black-sn850x-2tb-pcie-gen4-nvme-m-2-ssd-wds200t2x0e.html",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -3466,10 +3806,10 @@
    "value_score": null,
    "rank_score": 53.4,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/nvidia-gtx-1080-8gb/1737647860",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -3503,11 +3843,46 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
      "total_cad": 149.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/ddr4-64g-128g-ram-3600/1736144118",
+   "title": "Mushkin Redline White 64GB (2x32GB) DDR4-3600 CL16 (MRD4U360GKKP32GX2)",
+   "category": "Memory",
+   "total_cad": 480,
+   "price_cad": 480,
+   "shipping_cad": 0,
+   "typical_cad": 580,
+   "typical_basis": "Local 32GB (2x16) DDR4 kits sell for $250-300, so 64GB is about $520-600",
+   "source": "Kijiji",
+   "location": "Pincourt",
+   "condition": "Used (not stated)",
+   "specs": "2x32GB DDR4-3600 CL16 1.4V; 128GB option also offered at $920",
+   "why": "Fast 64GB kit for less than two 32GB kits locally",
+   "caveats": "Modest discount (about 1.21x). Condition not stated. 3600 CL16 may need tuning on Zen 2.",
+   "fits_my_gear": true,
+   "fit_note": "Direct 64GB upgrade for the TUF X570-Plus / 3700X (or a future 5800X3D)",
+   "capacity_gb": 64,
+   "deal_score": 1.21,
+   "discount_pct": 17,
+   "value_score": null,
+   "unit_price": "$7.50/GB",
+   "rank_score": 53.4,
+   "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/ddr4-64g-128g-ram-3600/1736144118",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 480.0
     }
    ]
   },
@@ -3524,7 +3899,7 @@
    "thin_client": false,
    "fits_my_gear": false,
    "fit_note": "",
-   "caveats": "Business seller (CLEARANCE IT SUPPLIES), 3 available; DP-only outputs",
+   "caveats": "Business seller (CLEARANCE IT SUPPLIES), 3 available; DP-only outputs. Re-check 2026-11-04: listed live at this price on today's Kijiji Greater Montréal search page, but the ad page itself could not be fetched (robots/client error), so this is snippet-only, not fetched.",
    "url": "https://www.kijiji.ca/v-computer-components/longueuil-rive-sud/amd-radeon-pro-w7500-8gb-gddr6-workstation-gpu-rdna-3-dp-2-1/1744216898",
    "title": "AMD Radeon Pro W7500 8GB GDDR6 (RDNA 3, 4x DP 2.1, 70W)",
    "category": "GPU",
@@ -3541,48 +3916,14 @@
    "value_score": null,
    "rank_score": 53.2,
    "id": "https://www.kijiji.ca/v-computer-components/longueuil-rive-sud/amd-radeon-pro-w7500-8gb-gddr6-workstation-gpu-rdna-3-dp-2-1/1744216898",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
      "total_cad": 300.0
-    }
-   ]
-  },
-  {
-   "url": "https://www.ebay.ca/itm/137762637426",
-   "title": "NVIDIA Quadro P1000 4GB 4x mDP (passive)",
-   "category": "GPU",
-   "total_cad": 60,
-   "price_cad": 45,
-   "shipping_cad": 15,
-   "typical_cad": 80,
-   "typical_basis": "eBay.ca P1000 4GB tested C$85; set C$80",
-   "source": "eBay.ca",
-   "location": "Unknown",
-   "condition": "Pre-owned",
-   "specs": "Pascal 4GB GDDR5, 47W, LP, NVENC",
-   "fits_my_gear": false,
-   "fit_note": "Similar NVENC to your GTX 1050",
-   "why": "P1000 at ~0.75x typical",
-   "caveats": "Fanless cooler needs airflow; shipping estimated C$15; category-page data only",
-   "available": true,
-   "deal_score": 1.33,
-   "discount_pct": 25,
-   "value_score": null,
-   "rank_score": 53.2,
-   "id": "https://www.ebay.ca/itm/137762637426",
-   "status": "NOT SEEN",
-   "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
-   "missed_days": 0,
-   "price_history": [
-    {
-     "date": "2026-11-02",
-     "total_cad": 60.0
     }
    ]
   },
@@ -3616,14 +3957,49 @@
    "value_score": null,
    "rank_score": 53.2,
    "id": "https://www.kijiji.ca/v-servers/longueuil-rive-sud/dell-precision-t5500-workstation/1741806597",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-03",
      "total_cad": 150.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.kijiji.ca/v-computer-components/laval-rive-nord/corsair-vengeance-lpx-16gb-2x8gb-ddr4-2800-cl16-ram/1743182799",
+   "title": "Corsair Vengeance LPX 16GB (2x8GB) DDR4-2800 CL16",
+   "category": "Memory",
+   "total_cad": 75,
+   "price_cad": 75,
+   "shipping_cad": 0,
+   "typical_cad": 100,
+   "typical_basis": "Local 2x8GB DDR4 kits today: $80-150 (HyperX Fury 2666 $90, Vengeance Pro 3000 $110)",
+   "source": "Kijiji",
+   "location": "Laval",
+   "condition": "Used, like new (tested)",
+   "specs": "2x8GB DDR4-2800 CL16 UDIMM, XMP",
+   "why": "About 25% under typical 16GB DDR4 kit prices",
+   "caveats": "Small absolute saving",
+   "fits_my_gear": false,
+   "fit_note": "Redundant with your spare 2x8GB kit",
+   "capacity_gb": 16,
+   "deal_score": 1.33,
+   "discount_pct": 25,
+   "value_score": null,
+   "unit_price": "$4.69/GB",
+   "rank_score": 53.2,
+   "id": "https://www.kijiji.ca/v-computer-components/laval-rive-nord/corsair-vengeance-lpx-16gb-2x8gb-ddr4-2800-cl16-ram/1743182799",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 75.0
     }
    ]
   },
@@ -3661,7 +4037,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -3702,7 +4078,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3745,10 +4121,10 @@
    "value_score": null,
    "rank_score": 52.0,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/nvidia-quadro-p4000-8gb-gddr5-gpu-pci-e-3-0x16-4xdp-video-card/1744713718",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -3787,10 +4163,10 @@
    "value_score": null,
    "rank_score": 52.0,
    "id": "https://www.kijiji.ca/v-laptops/longueuil-rive-sud/lenovo-thinkpad-p15-gen-1-mobile-workstation-i7-32gb-ram-ded/1743585284",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -3824,7 +4200,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -3854,10 +4230,10 @@
    "value_score": null,
    "rank_score": 52.0,
    "id": "https://www.kijiji.ca/v-computer-components/shawinigan/i7-14700kf-msi-z790-carbon-nzxt-kraken-280mm/1745528445",
-   "status": "NEW",
+   "status": "NOT SEEN",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-03",
@@ -3886,7 +4262,7 @@
    "thin_client": false,
    "specs": "OptiPlex 7070 Micro, i5-9500T 6C, 8GB DDR4, 256GB SSD, Win11 Pro",
    "why": "A 9th gen 7070 Micro landing right at the C$250 cap. Adding the spare 16GB stick takes it to 24GB.",
-   "caveats": "Adapter isn't stated. Over cap if shipping to QC costs more. A recent sold comp at C$179 suggests Best Offer could work, but this listing has no Best Offer. Verified from eBay.ca category/browse listing pages on 2026-11-01 (title, price, shipping); the item page itself could not be opened (fetch permission timed out), so check the full description before buying. Prices are eBay.ca CAD as displayed.",
+   "caveats": "Adapter isn't stated. Over cap if shipping to QC costs more. A recent sold comp at C$179 suggests Best Offer could work, but this listing has no Best Offer. Verified from eBay.ca category/browse listing pages on 2026-11-01 (title, price, shipping); the item page itself could not be opened (fetch permission timed out), so check the full description before buying. Prices are eBay.ca CAD as displayed. Re-checked 2026-11-04 on the eBay.ca browse page: C$229 + C$20 shipping, still listed.",
    "fits_my_gear": true,
    "fit_note": "8GB is likely a single stick, which leaves a free DDR4 SO-DIMM slot for the spare 16GB (24GB total). It also has a 2.5in bay (caddy and cable may be needed) for a spare SATA SSD.",
    "available": true,
@@ -3895,9 +4271,9 @@
    "value_score": 36.2,
    "rank_score": 51.9,
    "id": "https://www.ebay.ca/itm/366477158436",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -3930,15 +4306,15 @@
    "fits_my_gear": false,
    "fit_note": null,
    "why": "16GB M1 MacBook Pro for $545, about $150-350 under other Montréal M1 16GB asks; seller 'needs money to close the month' (ratio ~1.28)",
-   "caveats": "The listing is minimal: SSD size, battery cycles, and condition are not stated, and the 16GB is from the title only. Verify in About This Mac, check iCloud/Activation Lock is off, and confirm the charger is included. The seller is ID-verified.",
+   "caveats": "The listing is minimal: SSD size, battery cycles, and condition are not stated, and the 16GB is from the title only. Verify in About This Mac, check iCloud/Activation Lock is off, and confirm the charger is included. The seller is ID-verified. Re-check 2026-11-04: listed live at this price on today's Kijiji Greater Montréal search page, but the ad page itself could not be fetched (robots/client error), so this is snippet-only, not fetched.",
    "deal_score": 1.28,
    "discount_pct": 22,
    "value_score": null,
    "rank_score": 51.2,
    "id": "https://www.kijiji.ca/v-laptops/longueuil-rive-sud/macbook-pro-m1-16gb/1743318252",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -3980,7 +4356,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "missed_days": 3,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -4018,10 +4394,10 @@
    "value_score": null,
    "rank_score": 50.8,
    "id": "https://www.ebay.ca/itm/267828361901",
-   "status": "NEW",
+   "status": "NOT SEEN",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-03",
@@ -4059,9 +4435,9 @@
    "value_score": null,
    "rank_score": 50.4,
    "id": "https://www.kijiji.ca/v-laptops/ville-de-montreal/dell-laptop/1744873489",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -4098,9 +4474,9 @@
    "value_score": 36.1,
    "rank_score": 49.9,
    "id": "https://www.kijiji.ca/v-desktop-computers/longueuil-rive-sud/lenovo-m920q-tiny-i5-8500t-8go-256go-ssd-wifi-vga-win11-250/1745514717",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -4142,7 +4518,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "missed_days": 3,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -4185,7 +4561,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -4211,16 +4587,16 @@
    "storage_gb": 512,
    "fits_my_gear": false,
    "why": "A 32GB 6-core mobile workstation for well under weaker P52s refurbs",
-   "caveats": "Shipping isn't shown; C$25 is my estimate. Data comes from the eBay.ca category page; the item page wasn't opened. The battery is probably worn (2018 model). Check whether a charger is included. Re-check 2026-11-02: C$399 on eBay.ca browse page; shipping not shown (C$25 estimate).",
+   "caveats": "Shipping isn't shown; C$25 is my estimate. Data comes from the eBay.ca category page; the item page wasn't opened. The battery is probably worn (2018 model). Check whether a charger is included. Re-check 2026-11-02: C$399 on eBay.ca browse page; shipping not shown (C$25 estimate). Re-checked 2026-11-04 on the eBay.ca browse page: C$399, \"Only 1 left\", shipping not shown.",
    "available": true,
    "deal_score": 1.23,
    "discount_pct": 18,
    "value_score": null,
    "rank_score": 49.2,
    "id": "https://www.ebay.ca/itm/327428040008",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -4251,14 +4627,49 @@
    "value_score": null,
    "rank_score": 49.2,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/nvidia-geforce-rtx-3060-ti/1742007807",
-   "status": "NEW",
+   "status": "NOT SEEN",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-03",
      "total_cad": 300.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.kijiji.ca/v-other-computer-products/ville-de-montreal/seagate-barracuda-8tb-internal-hard-drive-hdd-3-5-inch-sata-6/1742229529",
+   "title": "Seagate BarraCuda 8TB 3.5\" SATA HDD (5400 rpm)",
+   "category": "Storage",
+   "total_cad": 200,
+   "price_cad": 200,
+   "shipping_cad": 0,
+   "typical_cad": 245,
+   "typical_basis": "Local 8TB asks: WD My Book $250, WD Red $320-400; refurb enterprise is about US$27-29/TB",
+   "source": "Kijiji",
+   "location": "Montréal (H3M)",
+   "condition": "Used, like new",
+   "specs": "8TB SATA, 5400 rpm, 256MB cache; no SMART posted",
+   "why": "Cheapest 8TB seen locally ($25/TB)",
+   "caveats": "Probably the SMR ST8000DM004, which is poor for ZFS/RAID. Ask for SMART data. Borderline (about 1.22x).",
+   "fits_my_gear": false,
+   "fit_note": "Backup/bulk disk, not for a ZFS pool",
+   "capacity_gb": 8000,
+   "deal_score": 1.23,
+   "discount_pct": 18,
+   "value_score": null,
+   "unit_price": "$25/TB",
+   "rank_score": 49.2,
+   "id": "https://www.kijiji.ca/v-other-computer-products/ville-de-montreal/seagate-barracuda-8tb-internal-hard-drive-hdd-3-5-inch-sata-6/1742229529",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 200.0
     }
    ]
   },
@@ -4290,7 +4701,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-01",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-01",
@@ -4314,16 +4725,16 @@
    "fits_my_gear": false,
    "fit_note": "Overkill for the 9500F",
    "why": "Current-gen card ~30% under new retail",
-   "caveats": "Brand/condition/receipt unknown; meet in person and test; search-page data only",
+   "caveats": "Brand/condition/receipt unknown; meet in person and test; search-page data only Re-check 2026-11-04: ad page fetched today, live at this price.",
    "available": true,
    "deal_score": 1.22,
    "discount_pct": 18,
    "value_score": null,
    "rank_score": 48.8,
    "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/nvidia-rtx5070-graphic-card/1744570627",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -4357,7 +4768,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -4398,7 +4809,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-10-31",
    "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "missed_days": 3,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -4437,14 +4848,49 @@
    "value_score": null,
    "rank_score": 48.4,
    "id": "https://www.kijiji.ca/v-laptops/ville-de-montreal/thinkpad-x1-carbon-gen-10-laptop/1745316824",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "missed_days": 1,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-11-01",
      "total_cad": 660.0
+    }
+   ]
+  },
+  {
+   "url": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/sk-hynix-16gb-2x8gb-ddr5-5600-laptop-ram-so-dimm/1743911102",
+   "title": "SK hynix 16GB (2x8GB) DDR5-5600 SO-DIMM",
+   "category": "Memory",
+   "total_cad": 190,
+   "price_cad": 190,
+   "shipping_cad": 0,
+   "typical_cad": 230,
+   "typical_basis": "Local 16GB DDR5 asks: $230-280",
+   "source": "Kijiji",
+   "location": "Montréal (H4K)",
+   "condition": "Used, like new",
+   "specs": "2x8GB DDR5-5600 SO-DIMM 1Rx16",
+   "why": "Cheapest 16GB DDR5 SO-DIMM seen locally",
+   "caveats": "Borderline (about 1.21x); price firm",
+   "fits_my_gear": false,
+   "fit_note": "No DDR5 gear",
+   "capacity_gb": 16,
+   "deal_score": 1.21,
+   "discount_pct": 17,
+   "value_score": null,
+   "unit_price": "$11.88/GB",
+   "rank_score": 48.4,
+   "id": "https://www.kijiji.ca/v-computer-components/ville-de-montreal/sk-hynix-16gb-2x8gb-ddr5-5600-laptop-ram-so-dimm/1743911102",
+   "status": "NEW",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
+   "price_history": [
+    {
+     "date": "2026-11-04",
+     "total_cad": 190.0
     }
    ]
   },
@@ -4474,7 +4920,7 @@
    "status": "NOT SEEN",
    "first_seen": "2026-11-02",
    "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "missed_days": 1,
    "price_history": [
     {
      "date": "2026-11-02",
@@ -4512,9 +4958,9 @@
    "value_score": null,
    "rank_score": 48.0,
    "id": "https://www.kijiji.ca/v-laptops/ville-de-montreal/laptop-lenovo-touch-512gb-ssd-i7-8th-gen-16gb-ram/1745644604",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -4553,9 +4999,9 @@
    "value_score": null,
    "rank_score": 48.0,
    "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/hp-800-g3-intel-core-i7-7700-32-gb-512-gb-ssd-nvidia-1080/1730942106",
-   "status": "NEW",
+   "status": "SEEN",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "missed_days": 0,
    "price_history": [
     {
@@ -4582,7 +5028,7 @@
    "storage_gb": null,
    "capacity_gb": null,
    "sodimm_slots": 2,
-   "m2_and_sata": "1x M.2 2280 NVMe + 2.5\" SATA bay (PCIe x8 riser possible)",
+   "m2_and_sata": true,
    "adapter": null,
    "thin_client": false,
    "fits_my_gear": true,
@@ -4594,10 +5040,10 @@
    "value_score": 23.7,
    "rank_score": 43.0,
    "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/lenovo-thinkcentre-m720q-8gen-i5-pc-mac-laptops-projectors-pro/1742087141",
-   "status": "NOT SEEN",
+   "status": "SEEN",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-10-31",
-   "missed_days": 2,
+   "last_seen": "2026-11-04",
+   "missed_days": 0,
    "price_history": [
     {
      "date": "2026-10-31",
@@ -4606,50 +5052,46 @@
    ]
   },
   {
-   "url": "https://www.canadacomputers.com/en/mid-tower-cases/274252/hyte-x50-pitch-black-cs-hyte-x50g-bb.html",
-   "title": "HYTE X50 mid-tower case (Pitch Black, glass)",
-   "category": "Case",
-   "total_cad": 209.99,
-   "price_cad": 209.99,
+   "url": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/topton-fu02-fanless-mini-pc-amd-ryzen-7-7730u-barebones/1742934570",
+   "title": "Topton FU02 Fanless Mini PC AMD Ryzen 7 7730U Barebones",
+   "category": "Mini PC",
+   "total_cad": 300,
+   "price_cad": 300,
    "shipping_cad": 0,
-   "typical_cad": 170,
-   "typical_basis": "CC regular $209.99; US MSRP about US$130 (~C$180); conservative Canadian street price about $170",
-   "source": "Canada Computers",
-   "location": "Montreal 2, Marche Central 2, Brossard 3, Laval 1, online 6",
-   "condition": "New",
-   "specs": "E-ATX/ATX/mATX/ITX, ATX PSU, panoramic glass, up to 3x120/140 front",
-   "cpu": null,
-   "ram_gb": null,
-   "storage_gb": null,
+   "typical_cad": 420,
+   "typical_basis": "Ryzen 7 5825U/7730U mini PCs, new, configured on Newegg.ca: $690-900 (Beelink EQR5). Barebones new from AliExpress ~US$250-300 + duties",
+   "source": "Kijiji",
+   "location": "Downtown Montréal (H3A), office pickup",
+   "condition": "Used - Like new; 'last unit'",
+   "specs": "Ryzen 7 7730U 8C/16T Zen3, fanless aluminum, 2x DDR4 SO-DIMM (up to 64GB, 3200), 1x M.2 2280 NVMe PCIe3 x4, 2.5\" 7mm bay, 2x GbE, Wi-Fi 6, 2x HDMI",
+   "cpu": "AMD Ryzen 7 7730U",
+   "ram_gb": 0,
+   "storage_gb": 0,
    "capacity_gb": null,
-   "sodimm_slots": null,
-   "m2_and_sata": null,
+   "sodimm_slots": 2,
+   "m2_and_sata": "1x M.2 2280 NVMe + 2.5\" SATA bay",
    "adapter": null,
    "thin_client": false,
    "fits_my_gear": true,
-   "fit_note": "Fits an ATX/mATX LGA1151 build with the i5-9500F + GTX 1050 (motherboard still needed)",
-   "why": "Save $90 (43% off regular)",
-   "caveats": "The sale countdown shows 00:00:00 and no end date. The page doesn't confirm whether fans are included. The HYTE X50 Air (mesh) is $104.99, regular $164.99. Prices are before tax. Re-check 2026-11-02: sale is over; CC page now shows $209.99 (regular price), so this is no longer a deal.",
-   "deal_score": 0.81,
-   "discount_pct": -24,
-   "value_score": null,
-   "rank_score": 37.4,
-   "id": "https://www.canadacomputers.com/en/mid-tower-cases/274252/hyte-x50-pitch-black-cs-hyte-x50g-bb.html",
-   "status": "NOT SEEN",
+   "fit_note": "Barebones that matches your parts: your 16GB DDR4-2666 SO-DIMM and a 2.5\" SATA SSD make an 8-core/16-thread node with no other purchases.",
+   "why": "Standout: 8C/16T Zen3 with dual NIC, fanless and silent, much stronger than any 8th-gen tiny, and it uses RAM/SSD you already own.",
+   "caveats": "At the $300 standout ceiling. Barebones (no RAM or storage). Adapter not stated. Kijiji search showed $350 in one snapshot while the ad page said $300, so confirm the price. NICs are 1GbE only (not 2.5G). Fanless units run hot under sustained load.",
+   "deal_score": 1.4,
+   "discount_pct": 29,
+   "value_score": 35.0,
+   "rank_score": 53.6,
+   "id": "https://www.kijiji.ca/v-desktop-computers/ville-de-montreal/topton-fu02-fanless-mini-pc-amd-ryzen-7-7730u-barebones/1742934570",
+   "status": "GONE",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-02",
-   "missed_days": 0,
+   "last_seen": "2026-10-31",
+   "missed_days": 2,
    "price_history": [
     {
      "date": "2026-10-31",
-     "total_cad": 119.99
-    },
-    {
-     "date": "2026-11-02",
-     "total_cad": 209.99
+     "total_cad": 300.0
     }
    ],
-   "available": true
+   "gone_since": "2026-11-04"
   },
   {
    "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/269823/samsung-9100-pro-with-heatsink-1tb-m-2-nvme-2-0-pcie-gen5-x4-ssd-mz-vap1t0cw.html",
